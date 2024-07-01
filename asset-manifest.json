@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.adb930ca.css",
-    "main.js": "/static/js/main.d7520483.js",
+    "main.css": "/static/css/main.84203973.css",
+    "main.js": "/static/js/main.a0dcd9d7.js",
     "static/js/453.a9c87b2b.chunk.js": "/static/js/453.a9c87b2b.chunk.js",
+    "static/media/FrontPage3.png": "/static/media/FrontPage3.392d068a93d6d9f9e082.png",
+    "static/media/FrontPage2.png": "/static/media/FrontPage2.e7793073ea0bbad5e473.png",
+    "static/media/FrontPage1.png": "/static/media/FrontPage1.f6c5e514a46fef1db7c0.png",
     "static/media/PuckScouts_TransparentLogo.png": "/static/media/PuckScouts_TransparentLogo.1df54c73aacfeeb6d7ef.png",
     "index.html": "/index.html",
-    "main.adb930ca.css.map": "/static/css/main.adb930ca.css.map",
-    "main.d7520483.js.map": "/static/js/main.d7520483.js.map",
+    "main.84203973.css.map": "/static/css/main.84203973.css.map",
+    "main.a0dcd9d7.js.map": "/static/js/main.a0dcd9d7.js.map",
     "453.a9c87b2b.chunk.js.map": "/static/js/453.a9c87b2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adb930ca.css",
-    "static/js/main.d7520483.js"
+    "static/css/main.84203973.css",
+    "static/js/main.a0dcd9d7.js"
   ]
 }
