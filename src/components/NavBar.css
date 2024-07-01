@@ -1,32 +1,43 @@
 /* src/components/NavBar.css */
-.navbar-brand img {
-  height: 80px; /* Adjusted height */
-  margin-right: 2px; /* Adjusted right margin */
-}
-
 .navbar {
-  display: flex;
-  align-items: center; /* Ensure logo and links are vertically aligned */
   font-family: 'Roboto', sans-serif; /* Set the custom font family */
-  height: 80px; /* Set a fixed height */
+  padding-top: 0rem; /* Reduce top padding */
+  padding-bottom: 0rem; /* Reduce bottom padding */
 }
 
-.navbar-nav.ml-auto {
-  margin-left: auto; /* Pushes the group of links to the rightmost side */
-  padding-right: 20px; /* Add right padding to ensure "Contact" isn't against the edge */
+.navbar-brand {
+  padding-left: 0rem; /* Default left padding for the logo */
+  margin-left: 0px; /* Remove left margin for the logo */
 }
 
-.navbar-nav .nav-item {
-  margin-left: 4px; /* Add left margin to increase space between links */
+.navbar-brand img {
+  height: 80px; /* Adjusted height for the logo */
+  margin-top: -5px; /* Center the logo vertically */
+  padding: -1 -1rem; /* Add padding around the logo, adjust as needed */
 }
 
 .navbar-nav .nav-link {
   font-weight: bold; /* Make the links bold */
   color: #000000; /* Change the color of the links */
-  font-size: 18px; /* Increase the font size */
-  padding: 0; /* Remove default padding */
+  font-size: 18px; /* Adjust font size */
+  padding: 0rem 0rem; /* Adjust padding for the links */
 }
 
 .navbar-nav .nav-link:hover {
   color: #034183; /* Change the color of the links on hover */
+}
+
+.navbar-nav .nav-item {
+  margin-left: 0px; /* Add left margin to increase space between links */
+  margin-right: 3px;
+}
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    margin-bottom: 3px;
+  }
+  
+  .navbar-nav {
+    text-align: center; /* Center the nav items when collapsed */
+  }
 }

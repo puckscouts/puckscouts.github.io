@@ -1,11 +1,16 @@
-// src/pages/ContactPage.js
 import React from 'react';
+import './ContactPage.css';
 
 function ContactPage() {
   return (
-    <div>
+    <div className="contact-container">
       <h1>Contact Us</h1>
-      <p>If you have any questions or feedback, feel free to reach out to us.</p>
+      <p>
+        If you have any questions, comments, or inquiries, please feel free to reach out to us at:
+      </p>
+      <p>
+        <a href="mailto:dev@puckscouts.com">dev@puckscouts.com</a>
+      </p>
     </div>
   );
 }

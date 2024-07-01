@@ -76,3 +76,13 @@
 .footer-text .heart {
   color: #6c757d; /* Gray heart color */
 }
+
+
+.carousel-item img {
+  max-height: 300px; /* Adjust the height as needed */
+  object-fit: cover;
+}
+
+.carousel {
+  margin-bottom: 20px; /* Add some space below the carousel */
+}
