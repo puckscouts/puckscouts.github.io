@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import NHLPage from './pages/NHLPage';
 import NCAAPage from './pages/NCAAPage';
@@ -20,7 +20,7 @@ function App() {
     <Router>
       <div className="app-container">
         <NavBar />
-        <ConditionalCarousel />
+        <ConditionalCarousel /> {/* Add the conditional carousel here */}
         <div className="main-content">
           <Routes>
             <Route path="/" element={<HomePage />} />
