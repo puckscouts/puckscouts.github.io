@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import NHLPage from './pages/NHLPage';
 import NCAAPage from './pages/NCAAPage';
@@ -8,7 +8,7 @@ import ContactPage from './pages/ContactPage';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer';
 import TeamPage from './pages/TeamPage';
-import ArticleCarousel from './components/ArticleCarousel'; // Import ArticleCarousel
+import ArticleCarousel from './components/ArticleCarousel';
 import './App.css';
 
 const ConditionalCarousel = () => {
@@ -18,10 +18,10 @@ const ConditionalCarousel = () => {
 
 const App = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="app-container">
         <NavBar />
-        <ConditionalCarousel /> {/* Add the conditional carousel here */}
+        <ConditionalCarousel />
         <div className="main-content">
           <Routes>
             <Route path="/" element={<HomePage />} />
