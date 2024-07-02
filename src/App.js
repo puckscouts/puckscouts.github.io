@@ -18,7 +18,7 @@ const ConditionalCarousel = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div className="app-container">
         <NavBar />
         <ConditionalCarousel /> {/* Add the conditional carousel here */}
