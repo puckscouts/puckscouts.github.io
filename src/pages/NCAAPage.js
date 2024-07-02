@@ -6,14 +6,14 @@ function NCAAPage() {
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    fetch('https://puckscouts-167144ddf5d6.herokuapp.com/api/teams')
+    fetch('/api/teams')
       .then(response => response.json())
       .then(data => {
-        console.log(data); // Add this line to log the data
+        console.log(data); // Log the data to verify
         setTeams(data);
       })
       .catch(error => {
-        console.error('Error fetching teams:', error); // Add this line to log any errors
+        console.error('Error fetching teams:', error);
       });
   }, []);
 

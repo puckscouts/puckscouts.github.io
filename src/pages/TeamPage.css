@@ -1,0 +1,14 @@
+/* src/pages/TeamPage.css */
+.team-container {
+    padding: 20px;
+  }
+  
+  .team-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .team-container li {
+    margin: 10px 0;
+  }
+  

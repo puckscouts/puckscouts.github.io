@@ -3,15 +3,15 @@ import { useParams } from 'react-router-dom';
 import './TeamPage.css';
 
 function TeamPage() {
-  const { teamId } = useParams();
+  const { id } = useParams();
   const [team, setTeam] = useState(null);
 
   useEffect(() => {
-    fetch(`https://puckscouts-167144ddf5d6.herokuapp.com/api/teams/${teamId}`)
+    fetch(`/api/teams/${id}`)
       .then(response => response.json())
       .then(data => setTeam(data))
-      .catch(error => console.error('Error fetching team:', error));
-  }, [teamId]);
+      .catch(error => console.error('Error fetching team data:', error));
+  }, [id]);
 
   if (!team) {
     return <div>Loading...</div>;
