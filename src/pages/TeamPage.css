@@ -1,14 +1,29 @@
-/* src/pages/TeamPage.css */
-.team-container {
-    padding: 20px;
-  }
-  
-  .team-container ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .team-container li {
-    margin: 10px 0;
-  }
-  
+.team-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.team-name {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.team-logo-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.team-logo {
+  max-width: 100%;
+  max-height: 100%;
+}

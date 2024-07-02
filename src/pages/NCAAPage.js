@@ -1,32 +1,26 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import conferences from '../data/conferences';
 import './NCAAPage.css';
 
 function NCAAPage() {
-  const [teams, setTeams] = useState([]);
-
-  useEffect(() => {
-    fetch('/api/teams')
-      .then(response => response.json())
-      .then(data => {
-        console.log(data); // Log the data to verify
-        setTeams(data);
-      })
-      .catch(error => {
-        console.error('Error fetching teams:', error);
-      });
-  }, []);
-
   return (
     <div className="ncaa-container">
-      <h1>D1 Teams</h1>
-      <ul>
-        {teams.map(team => (
-          <li key={team.id}>
-            <Link to={`/ncaa/team/${team.id}`}>{team.name}</Link>
-          </li>
-        ))}
-      </ul>
+      {conferences.map(conference => (
+        <div key={conference.name} className="conference">
+          {conference.logo && <img src={conference.logo} alt={`${conference.name} logo`} className="conference-logo" />}
+          {!conference.logo && <h2 className="conference-name">{conference.name}</h2>}
+          <div className="teams">
+            {conference.teams.map(team => (
+              <Link key={team.name} to={`/ncaa/team/${team.name.toLowerCase().replace(/\s+/g, '-')}`} className="team-logo-link">
+                <div className="team-box">
+                  <img src={team.logo} alt={team.name} className="team-logo" />
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

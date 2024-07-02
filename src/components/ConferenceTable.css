@@ -1,0 +1,40 @@
+/* src/components/ConferenceTable.css */
+.conference-table {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.conference-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.conference-logo {
+  height: 50px;
+}
+
+.teams-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.team-logo {
+  height: 50px;
+  margin-bottom: 5px;
+}

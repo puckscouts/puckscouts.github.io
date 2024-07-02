@@ -1,23 +1,56 @@
-/* src/pages/NCAAPage.css */
 .ncaa-container {
-    padding: 20px;
-  }
-  
-  .ncaa-container ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .ncaa-container li {
-    margin: 10px 0;
-  }
-  
-  .ncaa-container a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  .ncaa-container a:hover {
-    text-decoration: underline;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px; /* Increased vertical space between conference boxes */
+  padding: 20px;
+}
+
+.conference {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 1200px;
+}
+
+.conference-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.conference-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.team-logo-link {
+  display: inline-block;
+}
+
+.team-box {
+  width: 65px; /* Adjusted the size */
+  height: 65px; /* Adjusted the size */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f2f2f2; /* Darker gray background */
+}
+
+.team-logo {
+  max-width: 45px; /* Adjusted the size */
+  max-height: 40px; /* Adjusted the size */
+}
