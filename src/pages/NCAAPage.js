@@ -4,9 +4,20 @@ import conferences from '../data/conferences';
 import './NCAAPage.css';
 
 function NCAAPage() {
+  const updatedConferences = [...conferences];
+
+  const indexNCHC = updatedConferences.findIndex(conf => conf.name === 'NCHC');
+  const indexAtlanticHockey = updatedConferences.findIndex(conf => conf.name === 'Atlantic Hockey');
+
+  if (indexNCHC !== -1 && indexAtlanticHockey !== -1) {
+    const temp = updatedConferences[indexNCHC];
+    updatedConferences[indexNCHC] = updatedConferences[indexAtlanticHockey];
+    updatedConferences[indexAtlanticHockey] = temp;
+  }
+
   return (
     <div className="ncaa-container">
-      {conferences.map(conference => (
+      {updatedConferences.map(conference => (
         <div key={conference.name} className="conference">
           {conference.logo && (
             <img 
@@ -32,4 +43,3 @@ function NCAAPage() {
 }
 
 export default NCAAPage;
-
