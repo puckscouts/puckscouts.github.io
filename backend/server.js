@@ -1,5 +1,5 @@
 const express = require('express');
-const mysql = require('mysql2'); // Use mysql2 instead of mysql
+const mysql = require('mysql2');
 const cors = require('cors');
 const dotenv = require('dotenv');
 const path = require('path');
@@ -12,12 +12,7 @@ const port = process.env.PORT || 5001;
 app.use(cors());
 app.use(express.json());
 
-const db = mysql.createConnection({
-  host: process.env.JAWSDB_URL ? process.env.JAWSDB_URL.split('@')[1].split('/')[0] : process.env.DB_HOST,
-  user: process.env.JAWSDB_URL ? process.env.JAWSDB_URL.split('@')[0].split(':')[1].split('//')[1] : process.env.DB_USER,
-  password: process.env.JAWSDB_URL ? process.env.JAWSDB_URL.split('@')[0].split(':')[2] : process.env.DB_PASSWORD,
-  database: process.env.JAWSDB_URL ? process.env.JAWSDB_URL.split('/')[1] : process.env.DB_NAME
-});
+const db = mysql.createConnection(process.env.JAWSDB_URL);
 
 db.connect(err => {
   if (err) throw err;
@@ -56,19 +51,13 @@ app.get('/api/teams/:id', (req, res) => {
 });
 
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 // For any other routes, serve the React app
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+  res.sendFile(path.join(__dirname, 'client/build/index.html'));
 });
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
-
-
-console.log('DB_HOST:', process.env.DB_HOST);
-console.log('DB_USER:', process.env.DB_USER);
-console.log('DB_PASSWORD:', process.env.DB_PASSWORD);
-console.log('DB_NAME:', process.env.DB_NAME);
