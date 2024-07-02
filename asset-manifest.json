@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.162ea10f.css",
-    "main.js": "/static/js/main.7aea9ada.js",
+    "main.css": "/static/css/main.ff6ad9f0.css",
+    "main.js": "/static/js/main.af9bb4bc.js",
     "static/js/453.b94bda15.chunk.js": "/static/js/453.b94bda15.chunk.js",
     "static/media/FrontPage3.png": "/static/media/FrontPage3.392d068a93d6d9f9e082.png",
     "static/media/FrontPage2.png": "/static/media/FrontPage2.e7793073ea0bbad5e473.png",
@@ -66,7 +66,6 @@
     "static/media/BU.png": "/static/media/BU.4fe616f73ed02c4bbec8.png",
     "static/media/BGSU.png": "/static/media/BGSU.c17ee25dc606139e6a85.png",
     "static/media/Quinnipiac.png": "/static/media/Quinnipiac.bba07bc05c67a09c642f.png",
-    "static/media/BigTen.png": "/static/media/BigTen.731ec1f9bd029ca722cd.png",
     "static/media/RIT.png": "/static/media/RIT.f7f668fe86055239d519.png",
     "static/media/Cornell.png": "/static/media/Cornell.71792868ac8eb5a55711.png",
     "static/media/Harvard.png": "/static/media/Harvard.c6f7123a4adf36bd8ebb.png",
@@ -78,12 +77,12 @@
     "static/media/AIC.png": "/static/media/AIC.c7067864ef842a7ac60d.png",
     "static/media/Miami.png": "/static/media/Miami.a2707b96a3879b8c7990.png",
     "index.html": "/index.html",
-    "main.162ea10f.css.map": "/static/css/main.162ea10f.css.map",
-    "main.7aea9ada.js.map": "/static/js/main.7aea9ada.js.map",
+    "main.ff6ad9f0.css.map": "/static/css/main.ff6ad9f0.css.map",
+    "main.af9bb4bc.js.map": "/static/js/main.af9bb4bc.js.map",
     "453.b94bda15.chunk.js.map": "/static/js/453.b94bda15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.162ea10f.css",
-    "static/js/main.7aea9ada.js"
+    "static/css/main.ff6ad9f0.css",
+    "static/js/main.af9bb4bc.js"
   ]
 }
