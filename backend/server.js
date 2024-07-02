@@ -24,6 +24,7 @@ db.connect(err => {
   console.log('MySQL connected...');
 });
 
+// Define API routes
 app.get('/api/teams', (req, res) => {
   const sql = 'SELECT * FROM teams';
   db.query(sql, (err, results) => {
@@ -57,6 +58,7 @@ app.get('/api/teams/:id', (req, res) => {
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, 'client/build')));
 
+// For any other routes, serve the React app
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/client/build/index.html'));
 });
