@@ -51,6 +51,15 @@ const TeamPage = () => {
           }
           return 0;
         }
+        if (sortConfig.key === 'height') {
+          const parseHeight = (height) => {
+            const [feet, inches] = height.split('-').map(Number);
+            return feet * 12 + inches;
+          };
+          return (
+            (parseHeight(a.height) - parseHeight(b.height)) * (sortConfig.direction === 'ascending' ? 1 : -1)
+          );
+        }
         if (a[sortConfig.key] < b[sortConfig.key]) {
           return sortConfig.direction === 'ascending' ? -1 : 1;
         }
