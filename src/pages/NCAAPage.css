@@ -54,3 +54,8 @@
   max-width: 45px; /* Adjusted the size */
   max-height: 40px; /* Adjusted the size */
 }
+
+.big-ten-logo {
+  width: 135px; /* 10% smaller than the original 150px */
+  margin-bottom: 20px;
+}

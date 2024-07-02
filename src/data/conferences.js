@@ -89,113 +89,112 @@ import stonehillLogo from '../assets/images/TeamLogos/Independent/Stonehill.png'
 
 
 const conferences = [
-    {
+  {
       name: "Atlantic Hockey",
       logo: atlanticLogo,
       teams: [
-        { name: "Air Force", logo: airForceLogo },
-        { name: "AIC", logo: aicLogo },
-        { name: "Army West Point", logo: armyLogo },
-        { name: "Bentley", logo: bentleyLogo },
-        { name: "Canisius", logo: canisiusLogo },
-        { name: "Holy Cross", logo: holyCrossLogo },
-        { name: "Mercyhurst", logo: mercyhurstLogo },
-        { name: "Niagara", logo: niagaraLogo },
-        { name: "Robert Morris", logo: robertMorrisLogo },
-        { name: "RIT", logo: ritLogo },
-        { name: "Sacred Heart", logo: sacredHeartLogo }
+          { name: "Air Force", logo: airForceLogo, record: { W: 18, L: 19, T: 1 } },
+          { name: "AIC", logo: aicLogo, record: { W: 20, L: 16, T: 4 } },
+          { name: "Army West Point", logo: armyLogo, record: { W: 10, L: 23, T: 2 } },
+          { name: "Bentley", logo: bentleyLogo, record: { W: 16, L: 17, T: 2 } },
+          { name: "Canisius", logo: canisiusLogo, record: { W: 12, L: 21, T: 4 } },
+          { name: "Holy Cross", logo: holyCrossLogo, record: { W: 21, L: 14, T: 4 } },
+          { name: "Mercyhurst", logo: mercyhurstLogo, record: { W: 9, L: 22, T: 4 } },
+          { name: "Niagara", logo: niagaraLogo, record: { W: 18, L: 18, T: 3 } },
+          { name: "Robert Morris", logo: robertMorrisLogo, record: { W: 11, L: 25, T: 3 } },
+          { name: "RIT", logo: ritLogo, record: { W: 27, L: 11, T: 2 } },
+          { name: "Sacred Heart", logo: sacredHeartLogo, record: { W: 14, L: 19, T: 3 } }
       ],
-    },
-    {
+  },
+  {
       name: "Big Ten",
       logo: bigTenLogo,
       teams: [
-        { name: "Michigan", logo: michiganLogo },
-        { name: "Michigan State", logo: msuLogo },
-        { name: "Minnesota", logo: minnesotaLogo },
-        { name: "Notre Dame", logo: notreDameLogo },
-        { name: "Ohio State", logo: osuLogo },
-        { name: "Penn State", logo: psuLogo },
-        { name: "Wisconsin", logo: wisconsinLogo }
+          { name: "Michigan", logo: michiganLogo, record: { W: 23, L: 15, T: 3 } },
+          { name: "Michigan State", logo: msuLogo, record: { W: 25, L: 10, T: 3 } },
+          { name: "Minnesota", logo: minnesotaLogo, record: { W: 23, L: 11, T: 5 } },
+          { name: "Notre Dame", logo: notreDameLogo, record: { W: 15, L: 19, T: 2 } },
+          { name: "Ohio State", logo: osuLogo, record: { W: 14, L: 20, T: 4 } },
+          { name: "Penn State", logo: psuLogo, record: { W: 15, L: 18, T: 3 } },
+          { name: "Wisconsin", logo: wisconsinLogo, record: { W: 26, L: 12, T: 2 } }
       ],
-    },
-    {
+  },
+  {
       name: "CCHA",
       logo: cchaLogo,
       teams: [
-        { name: "Augustana", logo: augustanaLogo },
-        { name: "Bemidji State", logo: bemidjiLogo },
-        { name: "Bowling Green", logo: bgsuLogo },
-        { name: "Ferris State", logo: ferrisLogo },
-        { name: "Lake Superior State", logo: lssuLogo },
-        { name: "Michigan Tech", logo: michiganTechLogo },
-        { name: "Minnesota State", logo: mankatoLogo },
-        { name: "Northern Michigan", logo: nmuLogo },
-        { name: "St. Thomas", logo: stThomasLogo }
+          { name: "Augustana", logo: augustanaLogo, record: { W: 12, L: 18, T: 4 } },
+          { name: "Bemidji State", logo: bemidjiLogo, record: { W: 20, L: 16, T: 2 } },
+          { name: "Bowling Green", logo: bgsuLogo, record: { W: 13, L: 22, T: 1 } },
+          { name: "Ferris State", logo: ferrisLogo, record: { W: 10, L: 24, T: 2 } },
+          { name: "Lake Superior State", logo: lssuLogo, record: { W: 17, L: 20, T: 1 } },
+          { name: "Michigan Tech", logo: michiganTechLogo, record: { W: 19, L: 15, T: 6 } },
+          { name: "Minnesota State", logo: mankatoLogo, record: { W: 18, L: 15, T: 4 } },
+          { name: "Northern Michigan", logo: nmuLogo, record: { W: 12, L: 16, T: 6 } },
+          { name: "St. Thomas", logo: stThomasLogo, record: { W: 15, L: 20, T: 2 } }
       ],
-    },
-    {
+  },
+  {
       name: "ECAC",
       logo: ecacLogo,
       teams: [
-        { name: "Brown", logo: brownLogo },
-        { name: "Clarkson", logo: clarksonLogo },
-        { name: "Colgate", logo: colgateLogo },
-        { name: "Cornell", logo: cornellLogo },
-        { name: "Dartmouth", logo: dartmouthLogo },
-        { name: "Harvard", logo: harvardLogo },
-        { name: "Princeton", logo: princetonLogo },
-        { name: "Quinnipiac", logo: quinnipiacLogo },
-        { name: "Rensselaer", logo: rpiLogo },
-        { name: "St. Lawrence", logo: stLawrenceLogo },
-        { name: "Union", logo: unionLogo },
-        { name: "Yale", logo: yaleLogo }
+          { name: "Brown", logo: brownLogo, record: { W: 8, L: 19, T: 3 } },
+          { name: "Clarkson", logo: clarksonLogo, record: { W: 18, L: 16, T: 1 } },
+          { name: "Colgate", logo: colgateLogo, record: { W: 16, L: 16, T: 4 } },
+          { name: "Cornell", logo: cornellLogo, record: { W: 22, L: 7, T: 6 } },
+          { name: "Dartmouth", logo: dartmouthLogo, record: { W: 13, L: 10, T: 9 } },
+          { name: "Harvard", logo: harvardLogo, record: { W: 7, L: 19, T: 6 } },
+          { name: "Princeton", logo: princetonLogo, record: { W: 10, L: 16, T: 4 } },
+          { name: "Quinnipiac", logo: quinnipiacLogo, record: { W: 27, L: 10, T: 2 } },
+          { name: "Rensselaer", logo: rpiLogo, record: { W: 10, L: 23, T: 4 } },
+          { name: "St. Lawrence", logo: stLawrenceLogo, record: { W: 14, L: 19, T: 6 } },
+          { name: "Union", logo: unionLogo, record: { W: 16, L: 18, T: 3 } },
+          { name: "Yale", logo: yaleLogo, record: { W: 10, L: 18, T: 2 } }
       ],
-    },
-    {
+  },
+  {
       name: "Hockey East",
       logo: hockeyEastLogo,
       teams: [
-        { name: "Boston College", logo: bcLogo },
-        { name: "Boston University", logo: buLogo },
-        { name: "UConn", logo: uConnLogo },
-        { name: "Maine", logo: maineLogo },
-        { name: "Massachusetts", logo: uMassLogo },
-        { name: "UMass Lowell", logo: uMassLowellLogo },
-        { name: "Merrimack", logo: merrimackLogo },
-        { name: "New Hampshire", logo: unhLogo },
-        { name: "Northeastern", logo: northeasternLogo },
-        { name: "Providence", logo: providenceLogo },
-        { name: "Vermont", logo: vermontLogo }
+          { name: "Boston College", logo: bcLogo, record: { W: 34, L: 6, T: 1 } },
+          { name: "Boston University", logo: buLogo, record: { W: 28, L: 10, T: 2 } },
+          { name: "UConn", logo: uConnLogo, record: { W: 15, L: 19, T: 2 } },
+          { name: "Maine", logo: maineLogo, record: { W: 23, L: 12, T: 2 } },
+          { name: "Massachusetts", logo: uMassLogo, record: { W: 20, L: 14, T: 3 } },
+          { name: "UMass Lowell", logo: uMassLowellLogo, record: { W: 8, L: 24, T: 4 } },
+          { name: "Merrimack", logo: merrimackLogo, record: { W: 13, L: 21, T: 1 } },
+          { name: "New Hampshire", logo: unhLogo, record: { W: 20, L: 15, T: 1 } },
+          { name: "Northeastern", logo: northeasternLogo, record: { W: 17, L: 16, T: 3 } },
+          { name: "Providence", logo: providenceLogo, record: { W: 18, L: 13, T: 4 } },
+          { name: "Vermont", logo: vermontLogo, record: { W: 13, L: 19, T: 3 } }
       ],
-    },
-    {
+  },
+  {
       name: "NCHC",
       logo: nchcLogo,
       teams: [
-        { name: "Arizona State", logo: asuLogo },
-        { name: "Colorado College", logo: coloradoLogo },
-        { name: "Denver", logo: denverLogo },
-        { name: "Miami", logo: miamiLogo },
-        { name: "Minnesota Duluth", logo: duluthLogo },
-        { name: "North Dakota", logo: nodakLogo },
-        { name: "Omaha", logo: omahaLogo },
-        { name: "St. Cloud State", logo: stCloudLogo },
-        { name: "Western Michigan", logo: westernLogo }
+          { name: "Arizona State", logo: asuLogo, record: { W: 24, L: 8, T: 6 } },
+          { name: "Colorado College", logo: coloradoLogo, record: { W: 21, L: 13, T: 3 } },
+          { name: "Denver", logo: denverLogo, record: { W: 32, L: 9, T: 3 } },
+          { name: "Miami", logo: miamiLogo, record: { W: 7, L: 26, T: 3 } },
+          { name: "Minnesota Duluth", logo: duluthLogo, record: { W: 12, L: 20, T: 5 } },
+          { name: "North Dakota", logo: nodakLogo, record: { W: 26, L: 12, T: 2 } },
+          { name: "Omaha", logo: omahaLogo, record: { W: 23, L: 13, T: 4 } },
+          { name: "St. Cloud State", logo: stCloudLogo, record: { W: 17, L: 16, T: 5 } },
+          { name: "Western Michigan", logo: westernLogo, record: { W: 21, L: 16, T: 1 } }
       ],
-    },
-    {
+  },
+  {
       name: "Independents",
       logo: null,
       teams: [
-        { name: "Alaska", logo: alaskaLogo },
-        { name: "Alaska Anchorage", logo: anchorageLogo },
-        { name: "Lindenwood", logo: lindenwoodLogo },
-        { name: "Long Island University", logo: liuLogo },
-        { name: "Stonehill", logo: stonehillLogo }
+          { name: "Alaska", logo: alaskaLogo, record: { W: 17, L: 14, T: 3 } },
+          { name: "Alaska Anchorage", logo: anchorageLogo, record: { W: 15, L: 17, T: 2 } },
+          { name: "Lindenwood", logo: lindenwoodLogo, record: { W: 6, L: 18, T: 4 } },
+          { name: "Long Island", logo: liuLogo, record: { W: 16, L: 20, T: 1 } },
+          { name: "Stonehill", logo: stonehillLogo, record: { W: 2, L: 34, T: 0 } }
       ],
-    }
-  ];
-  
-  export default conferences;
-  
+  }
+];
+
+export default conferences;

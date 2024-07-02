@@ -2,28 +2,75 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
   padding: 20px;
+}
+
+.team-info {
+  align-self: flex-start;
+  margin-bottom: 10px;
 }
 
 .team-name {
   font-size: 2em;
   font-weight: bold;
-  text-align: center;
+}
+
+.team-record {
+  font-size: 1.2em;
+  font-weight: normal;
 }
 
 .team-logo-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px; /* Adjust as needed */
-  height: 150px; /* Adjust as needed */
+  width: 150px;
+  height: 150px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
+  margin-bottom: 10px; /* Reduced vertical padding */
 }
 
 .team-logo {
   max-width: 100%;
   max-height: 100%;
+}
+
+.team-roster {
+  width: 100%;
+}
+
+.roster-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.roster-table th,
+.roster-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.roster-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.roster-table th {
+  cursor: pointer;
+}
+
+.roster-table th.ascending::after {
+  content: ' ▲';
+}
+
+.roster-table th.descending::after {
+  content: ' ▼';
+}
+
+.bold-text {
+  font-weight: bold;
 }

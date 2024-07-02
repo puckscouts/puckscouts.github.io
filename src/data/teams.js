@@ -1,9 +1,21 @@
-// src/data/teams.js
-const teams = [
-    { id: 1, name: 'Michigan', slug: 'michigan' },
-    { id: 2, name: 'Michigan State', slug: 'michiganstate' },
-    { id: 3, name: 'Notre Dame', slug: 'notredame' },
-  ];
-  
-  export default teams;
-  
+import bigTenTeams from './BigTenTeams';
+import atlanticTeams from './AtlanticTeams';
+import cchaTeams from './cchaTeams';
+import ecacTeams from './ecacTeams';
+import heaTeams from './heaTeams';
+import nchcTeams from './nchcTeams';
+import independentTeams from './independentTeams';
+// Import other conferences here
+
+const teams = {
+  ...bigTenTeams,
+  ...atlanticTeams,
+  ...cchaTeams,
+  ...ecacTeams,
+  ...heaTeams,
+  ...nchcTeams,
+  ...independentTeams,
+  // Add other conferences here
+};
+
+export default teams;

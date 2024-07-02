@@ -8,7 +8,13 @@ function NCAAPage() {
     <div className="ncaa-container">
       {conferences.map(conference => (
         <div key={conference.name} className="conference">
-          {conference.logo && <img src={conference.logo} alt={`${conference.name} logo`} className="conference-logo" />}
+          {conference.logo && (
+            <img 
+              src={conference.logo} 
+              alt={`${conference.name} logo`} 
+              className={`conference-logo ${conference.name === 'Big Ten' ? 'big-ten-logo' : ''}`} 
+            />
+          )}
           {!conference.logo && <h2 className="conference-name">{conference.name}</h2>}
           <div className="teams">
             {conference.teams.map(team => (
@@ -26,3 +32,4 @@ function NCAAPage() {
 }
 
 export default NCAAPage;
+
