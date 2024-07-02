@@ -12,14 +12,27 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const dbConfig = process.env.JAWSDB_URL ? {
-  url: process.env.JAWSDB_URL
-} : {
-  host: process.env.DB_HOST,
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME
-};
+let dbConfig;
+
+if (process.env.JAWSDB_URL) {
+  const url = new URL(process.env.JAWSDB_URL);
+  dbConfig = {
+    host: url.hostname,
+    user: url.username,
+    password: url.password,
+    database: url.pathname.split('/')[1],
+    port: url.port,
+  };
+} else {
+  dbConfig = {
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_NAME,
+  };
+}
+
+console.log('DB Config:', dbConfig); // Added for debugging purposes
 
 const db = mysql.createConnection(dbConfig);
 
