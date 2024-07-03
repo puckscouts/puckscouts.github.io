@@ -1,0 +1,19 @@
+.nhl-team-page-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .nhl-team-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nhl-team-logo-box {
+    margin-top: 20px;
+  }
+  
+  .nhl-team-logo {
+    max-width: 200px;
+  }
+  

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import teams from '../data/teams';
-import './TeamPage.css';
+import './NCAATeamPage.css';
 
-const TeamPage = () => {
+const NCAATeamPage = () => {
   const { teamName } = useParams();
   const team = teams[teamName.toLowerCase()];
 
@@ -139,4 +139,4 @@ const TeamPage = () => {
   );
 };
 
-export default TeamPage;
+export default NCAATeamPage;

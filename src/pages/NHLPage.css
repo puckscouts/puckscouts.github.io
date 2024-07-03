@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .nhl-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 0 20px;
+    position: relative;
+    margin-top: 60px; /* Adjust based on your navbar height */
+  }
+  
+  .info-text {
+    position: absolute;
+    top: -40px; /* Adjust based on your navbar height */
+    width: 100%;
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .conference-list {
+    width: 15%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -40px; /* Push the side lists back up */
+  }
+  
+  .conference-list h2 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .conference-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .conference-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .conference-list .team-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .conference-list li a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nhl-container {
+    position: relative;
+    width: 60%;
+    max-width: 900px; /* Reduced max-width for a smaller map by 10% */
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .nhl-map {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .nhl-map-image {
+    width: 90%; /* Reduced size by 10% */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .nhl-team-logo {
+    position: absolute;
+    width: 30px; /* Adjust size if needed */
+    height: 30px; /* Adjust size if needed */
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+  }
+  

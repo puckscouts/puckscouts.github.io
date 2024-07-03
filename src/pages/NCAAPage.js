@@ -6,13 +6,22 @@ import './NCAAPage.css';
 function NCAAPage() {
   const updatedConferences = [...conferences];
 
+  // Swap NCHC and Atlantic Hockey
   const indexNCHC = updatedConferences.findIndex(conf => conf.name === 'NCHC');
   const indexAtlanticHockey = updatedConferences.findIndex(conf => conf.name === 'Atlantic Hockey');
-
   if (indexNCHC !== -1 && indexAtlanticHockey !== -1) {
     const temp = updatedConferences[indexNCHC];
     updatedConferences[indexNCHC] = updatedConferences[indexAtlanticHockey];
     updatedConferences[indexAtlanticHockey] = temp;
+  }
+
+  // Swap Hockey East and ECAC
+  const indexHockeyEast = updatedConferences.findIndex(conf => conf.name === 'Hockey East');
+  const indexECAC = updatedConferences.findIndex(conf => conf.name === 'ECAC');
+  if (indexHockeyEast !== -1 && indexECAC !== -1) {
+    const temp = updatedConferences[indexHockeyEast];
+    updatedConferences[indexHockeyEast] = updatedConferences[indexECAC];
+    updatedConferences[indexECAC] = temp;
   }
 
   return (
