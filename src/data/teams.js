@@ -1,21 +1,19 @@
-import bigTenTeams from './BigTenTeams';
-import atlanticTeams from './AtlanticTeams';
-import cchaTeams from './cchaTeams';
-import ecacTeams from './ecacTeams';
-import heaTeams from './heaTeams';
-import nchcTeams from './nchcTeams';
-import independentTeams from './independentTeams';
-// Import other conferences here
+import atlanticHockey from './stats+rosters/Atlantic_Hockey.json';
+import bigTen from './stats+rosters/Big_Ten.json';
+import ccha from './stats+rosters/CCHA.json';
+import ecacHockey from './stats+rosters/ECAC_Hockey.json';
+import hockeyEast from './stats+rosters/Hockey_East.json';
+import independent from './stats+rosters/Independent.json';
+import nchc from './stats+rosters/NCHC.json';
 
 const teams = {
-  ...bigTenTeams,
-  ...atlanticTeams,
-  ...cchaTeams,
-  ...ecacTeams,
-  ...heaTeams,
-  ...nchcTeams,
-  ...independentTeams,
-  // Add other conferences here
+  ...atlanticHockey,
+  ...bigTen,
+  ...ccha,
+  ...ecacHockey,
+  ...hockeyEast,
+  ...independent,
+  ...nchc,
 };
 
 export default teams;

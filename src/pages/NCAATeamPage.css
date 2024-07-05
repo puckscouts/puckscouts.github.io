@@ -29,7 +29,7 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
-  margin-bottom: 10px; /* Reduced vertical padding */
+  margin-bottom: 10px;
 }
 
 .team-logo {
@@ -37,37 +37,58 @@
   max-height: 100%;
 }
 
-.team-roster {
+.view-toggle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.view-toggle button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.view-toggle button.active {
+  font-weight: bold;
+  background-color: #ddd;
+}
+
+.team-roster, .team-statistics {
   width: 100%;
 }
 
-.roster-table {
+.roster-table, .statistics-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
 .roster-table th,
-.roster-table td {
+.roster-table td,
+.statistics-table th,
+.statistics-table td {
   border: 1px solid #ccc;
   padding: 8px;
   text-align: left;
 }
 
-.roster-table th {
+.roster-table th,
+.statistics-table th {
   background-color: #f2f2f2;
   font-weight: bold;
-}
-
-.roster-table th {
   cursor: pointer;
 }
 
-.roster-table th.ascending::after {
+.roster-table th.ascending::after,
+.statistics-table th.ascending::after {
   content: ' ▲';
 }
 
-.roster-table th.descending::after {
+.roster-table th.descending::after,
+.statistics-table th.descending::after {
   content: ' ▼';
 }
 
