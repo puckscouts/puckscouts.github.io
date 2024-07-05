@@ -4,13 +4,150 @@ import teams from '../data/teams';
 import conferences from '../data/conferences';
 import './NCAATeamPage.css';
 
+// Mapping of URL-friendly team names to JSON data team names
+const teamNameMapping = {
+  'air-force': 'air-force',
+  'aic': 'american-international',
+  'army-west-point': 'army',
+  'bentley': 'bentley',
+  'canisius': 'canisius',
+  'holy-cross': 'holy-cross',
+  'mercyhurst': 'mercyhurst',
+  'niagara': 'niagara',
+  'robert-morris': 'robert-morris',
+  'rit': 'rit',
+  'sacred-heart': 'sacred-heart',
+  'michigan': 'michigan',
+  'michigan-state': 'michigan-state',
+  'minnesota': 'minnesota',
+  'notre-dame': 'notre-dame',
+  'ohio-state': 'ohio-state',
+  'penn-state': 'penn-state',
+  'wisconsin': 'wisconsin',
+  'augustana': 'augustana',
+  'bemidji-state': 'bemidji-state',
+  'bowling-green': 'bowling-green',
+  'ferris-state': 'ferris-state',
+  'lake-superior-state': 'lake-superior',
+  'michigan-tech': 'michigan-tech',
+  'minnesota-state': 'minnesota-state',
+  'northern-michigan': 'northern-michigan',
+  'st.-thomas': 'st-thomas',
+  'brown': 'brown',
+  'clarkson': 'clarkson',
+  'colgate': 'colgate',
+  'cornell': 'cornell',
+  'dartmouth': 'dartmouth',
+  'harvard': 'harvard',
+  'princeton': 'princeton',
+  'quinnipiac': 'quinnipiac',
+  'rensselaer': 'rensselaer',
+  'st.-lawrence': 'st-lawrence',
+  'union': 'union',
+  'yale': 'yale',
+  'boston-college': 'boston-college',
+  'boston-university': 'boston-university',
+  'uconn': 'uconn',
+  'maine': 'maine',
+  'massachusetts': 'massachusetts',
+  'umass-lowell': 'umass-lowell',
+  'merrimack': 'merrimack',
+  'new-hampshire': 'new-hampshire',
+  'northeastern': 'northeastern',
+  'providence': 'providence',
+  'vermont': 'vermont',
+  'arizona-state': 'arizona-state',
+  'colorado-college': 'colorado-college',
+  'denver': 'denver',
+  'miami': 'miami',
+  'minnesota-duluth': 'minnesota-duluth',
+  'north-dakota': 'north-dakota',
+  'omaha': 'omaha',
+  'st.-cloud-state': 'st-cloud-state',
+  'western-michigan': 'western-michigan',
+  'alaska': 'alaska',
+  'alaska-anchorage': 'alaska-anchorage',
+  'lindenwood': 'lindenwood',
+  'long-island': 'liu',
+  'stonehill': 'stonehill',
+};
+
+// Mapping of URL-friendly team names to display names
+const displayNameMapping = {
+  'air-force': 'Air Force',
+  'aic': 'American International',
+  'army-west-point': 'Army West Point',
+  'bentley': 'Bentley',
+  'canisius': 'Canisius',
+  'holy-cross': 'Holy Cross',
+  'mercyhurst': 'Mercyhurst',
+  'niagara': 'Niagara',
+  'robert-morris': 'Robert Morris',
+  'rit': 'RIT',
+  'sacred-heart': 'Sacred Heart',
+  'michigan': 'Michigan',
+  'michigan-state': 'Michigan State',
+  'minnesota': 'Minnesota',
+  'notre-dame': 'Notre Dame',
+  'ohio-state': 'Ohio State',
+  'penn-state': 'Penn State',
+  'wisconsin': 'Wisconsin',
+  'augustana': 'Augustana',
+  'bemidji-state': 'Bemidji State',
+  'bowling-green': 'Bowling Green',
+  'ferris-state': 'Ferris State',
+  'lake-superior-state': 'Lake Superior State',
+  'michigan-tech': 'Michigan Tech',
+  'minnesota-state': 'Minnesota State',
+  'northern-michigan': 'Northern Michigan',
+  'st.-thomas': 'St. Thomas',
+  'brown': 'Brown',
+  'clarkson': 'Clarkson',
+  'colgate': 'Colgate',
+  'cornell': 'Cornell',
+  'dartmouth': 'Dartmouth',
+  'harvard': 'Harvard',
+  'princeton': 'Princeton',
+  'quinnipiac': 'Quinnipiac',
+  'rensselaer': 'Rensselaer',
+  'st.-lawrence': 'St. Lawrence',
+  'union': 'Union',
+  'yale': 'Yale',
+  'boston-college': 'Boston College',
+  'boston-university': 'Boston University',
+  'uconn': 'UConn',
+  'maine': 'Maine',
+  'massachusetts': 'Massachusetts',
+  'umass-lowell': 'UMass Lowell',
+  'merrimack': 'Merrimack',
+  'new-hampshire': 'New Hampshire',
+  'northeastern': 'Northeastern',
+  'providence': 'Providence',
+  'vermont': 'Vermont',
+  'arizona-state': 'Arizona State',
+  'colorado-college': 'Colorado College',
+  'denver': 'Denver',
+  'miami': 'Miami',
+  'minnesota-duluth': 'Minnesota Duluth',
+  'north-dakota': 'North Dakota',
+  'omaha': 'Omaha',
+  'st.-cloud-state': 'St. Cloud State',
+  'western-michigan': 'Western Michigan',
+  'alaska': 'Alaska',
+  'alaska-anchorage': 'Alaska Anchorage',
+  'lindenwood': 'Lindenwood',
+  'long-island': 'Long Island',
+  'stonehill': 'Stonehill',
+};
+
 const NCAATeamPage = () => {
   const { teamName } = useParams();
 
   const getTeamData = (teamName) => {
-    const teamData = teams[teamName.toLowerCase()];
+    const formattedTeamName = teamNameMapping[teamName] || teamName.replace(/-/g, ' ').toLowerCase();
+    const teamData = teams[formattedTeamName];
     for (const conference of conferences) {
-      const team = conference.teams.find(t => t.name.toLowerCase() === teamName.toLowerCase());
+      const team = conference.teams.find(t => t.name.toLowerCase().replace(/\s+/g, '-') === teamName);
       if (team && teamData) {
         return {
           conference: conference.name,
@@ -95,10 +232,12 @@ const NCAATeamPage = () => {
     let sortableStatistics = [...team.statistics.players];
     if (sortConfig !== null) {
       sortableStatistics.sort((a, b) => {
-        if (a[sortConfig.key] < b[sortConfig.key]) {
+        const aVal = parseFloat(a[sortConfig.key]) || a[sortConfig.key];
+        const bVal = parseFloat(b[sortConfig.key]) || b[sortConfig.key];
+        if (aVal < bVal) {
           return sortConfig.direction === 'ascending' ? -1 : 1;
         }
-        if (a[sortConfig.key] > b[sortConfig.key]) {
+        if (aVal > bVal) {
           return sortConfig.direction === 'ascending' ? 1 : -1;
         }
         return 0;
@@ -112,10 +251,12 @@ const NCAATeamPage = () => {
     let sortableGoaltending = [...team.statistics.goalies];
     if (sortConfig !== null) {
       sortableGoaltending.sort((a, b) => {
-        if (a[sortConfig.key] < b[sortConfig.key]) {
+        const aVal = parseFloat(a[sortConfig.key]) || a[sortConfig.key];
+        const bVal = parseFloat(b[sortConfig.key]) || b[sortConfig.key];
+        if (aVal < bVal) {
           return sortConfig.direction === 'ascending' ? -1 : 1;
         }
-        if (a[sortConfig.key] > b[sortConfig.key]) {
+        if (aVal > bVal) {
           return sortConfig.direction === 'ascending' ? 1 : -1;
         }
         return 0;
@@ -147,13 +288,15 @@ const NCAATeamPage = () => {
     return <div>Team not found</div>;
   }
 
+  const displayTeamName = displayNameMapping[teamName] || teamName.replace(/-/g, ' ');
+
   return (
     <div className="team-page-container">
       <div className="team-info">
-        <h1 className="team-name">{teamName}</h1>
+        <h1 className="team-name">{displayTeamName}</h1>
         <p className="team-record"><span className="bold-text">23-24 Record:</span> {team.record.W}-{team.record.L}-{team.record.T}</p>
         <div className="team-logo-box">
-          <img src={team.logo} alt={teamName} className="team-logo" />
+          <img src={team.logo} alt={displayTeamName} className="team-logo" />
         </div>
       </div>
       <div className="view-toggle">
