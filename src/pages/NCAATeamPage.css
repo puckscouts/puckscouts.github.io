@@ -5,31 +5,46 @@
   padding: 20px;
 }
 
+.team-info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .team-info {
-  align-self: flex-start;
-  margin-bottom: 10px;
+  flex: 1;
+  padding-left: 40px; /* Increase padding to move it to the right */
+}
+
+.last-five-games {
+  flex: 1;
+  margin-left: 20px;
 }
 
 .team-name {
-  font-size: 2em;
+  font-size: 2em; /* Keep original font size */
   font-weight: bold;
+  text-align: center;
 }
 
 .team-record {
-  font-size: 1.2em;
+  font-size: 1.2em; /* Keep original font size */
   font-weight: normal;
+  text-align: center; /* Center the record */
 }
 
 .team-logo-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  height: 150px;
+  width: 200px; /* Moderately increase the width */
+  height: 200px; /* Moderately increase the height */
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #f9f9f9;
-  margin-bottom: 10px;
+  margin: 0 auto 10px auto; /* Center the logo box */
 }
 
 .team-logo {
@@ -37,9 +52,14 @@
   max-height: 100%;
 }
 
+.last-five-games-table {
+  margin-bottom: 20px;
+}
+
 .view-toggle {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -60,7 +80,7 @@
   width: 100%;
 }
 
-.roster-table, .statistics-table {
+.roster-table, .statistics-table, .last-five-games-table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
@@ -69,29 +89,47 @@
 .roster-table th,
 .roster-table td,
 .statistics-table th,
-.statistics-table td {
+.statistics-table td,
+.last-five-games-table th,
+.last-five-games-table td {
   border: 1px solid #ccc;
   padding: 8px;
   text-align: left;
 }
 
 .roster-table th,
-.statistics-table th {
+.statistics-table th,
+.last-five-games-table th {
   background-color: #f2f2f2;
   font-weight: bold;
   cursor: pointer;
 }
 
 .roster-table th.ascending::after,
-.statistics-table th.ascending::after {
+.statistics-table th.ascending::after,
+.last-five-games-table th.ascending::after {
   content: ' ▲';
 }
 
 .roster-table th.descending::after,
-.statistics-table th.descending::after {
+.statistics-table th.descending::after,
+.last-five-games-table th.descending::after {
   content: ' ▼';
 }
 
 .bold-text {
   font-weight: bold;
+}
+
+/* Alternate row shading */
+.roster-table tbody tr:nth-child(even),
+.statistics-table tbody tr:nth-child(even),
+.last-five-games-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.roster-table tbody tr:nth-child(odd),
+.statistics-table tbody tr:nth-child(odd),
+.last-five-games-table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
 }

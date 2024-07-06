@@ -3,6 +3,22 @@
         "statistics": {
             "players": [
                 {
+                    "name": "Gavin Brindley",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "40",
+                    "g": "25",
+                    "a": "28",
+                    "pts": "53",
+                    "ptgm": "1.3250",
+                    "pen": "10",
+                    "pim": "28",
+                    "gwg": "2",
+                    "ppg": "6",
+                    "shg": "1",
+                    "eng": "1"
+                },
+                {
                     "name": "Rutger McGroarty",
                     "position": "F",
                     "year": "So",
@@ -664,11 +680,69 @@
                 "weight": "195",
                 "hometown": "Laurel Hollow, N.Y."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 16",
+                "time": "8:00 CT",
+                "team": "Minnesota",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 23",
+                "time": "8:00 ET",
+                "team": "Michigan State",
+                "team_score": "4",
+                "opp_score": "5",
+                "result": "L/OT"
+            },
+            {
+                "date": "Mar. 29",
+                "time": "7:30 CT",
+                "team": "North Dakota",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 31",
+                "time": "5:30 CT",
+                "team": "Michigan State",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Apr. 11",
+                "time": "7:30 CT",
+                "team": "Boston College",
+                "team_score": "0",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "michigan-state": {
         "statistics": {
             "players": [
+                {
+                    "name": "Isaac  Howard",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "36",
+                    "g": "8",
+                    "a": "28",
+                    "pts": "36",
+                    "ptgm": "1.0000",
+                    "pen": "5",
+                    "pim": "10",
+                    "gwg": "0",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Artyom Levshunov",
                     "position": "D",
@@ -1378,11 +1452,69 @@
                 "weight": "190",
                 "hometown": "Hudson, Wis."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 2",
+                "time": "8:00 CT",
+                "team": "Wisconsin",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "6:30 ET",
+                "team": "Ohio State",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 23",
+                "time": "8:00 ET",
+                "team": "Michigan",
+                "team_score": "5",
+                "opp_score": "4",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 29",
+                "time": "4:00 CT",
+                "team": "Western Michigan",
+                "team_score": "5",
+                "opp_score": "4",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 31",
+                "time": "5:30 CT",
+                "team": "Michigan",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "minnesota": {
         "statistics": {
             "players": [
+                {
+                    "name": "Rhett Pitlick",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "39",
+                    "g": "19",
+                    "a": "17",
+                    "pts": "36",
+                    "ptgm": "0.9231",
+                    "pen": "7",
+                    "pim": "14",
+                    "gwg": "1",
+                    "ppg": "4",
+                    "shg": "1",
+                    "eng": "1"
+                },
                 {
                     "name": "Bryce Brodzinski",
                     "position": "F",
@@ -1995,11 +2127,69 @@
                 "weight": "200",
                 "hometown": "Mahtomedi, Minn."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 8",
+                "time": "6:00 CT",
+                "team": "Penn State",
+                "team_score": "5",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "3:30 CT",
+                "team": "Penn State",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "8:00 CT",
+                "team": "Michigan",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 28",
+                "time": "7:30 CT",
+                "team": "Nebraska-Omaha",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 30",
+                "time": "5:30 CT",
+                "team": "Boston University",
+                "team_score": "3",
+                "opp_score": "6",
+                "result": "L"
+            }
         ]
     },
     "notre-dame": {
         "statistics": {
             "players": [
+                {
+                    "name": "Landon Slaggert",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "36",
+                    "g": "20",
+                    "a": "11",
+                    "pts": "31",
+                    "ptgm": "0.8611",
+                    "pen": "5",
+                    "pim": "10",
+                    "gwg": "2",
+                    "ppg": "6",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Patrick Moynihan",
                     "position": "F",
@@ -2680,11 +2870,69 @@
                 "weight": "190",
                 "hometown": "Medina, Minnesota"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 17",
+                "time": "6:00 ET",
+                "team": "Minnesota",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L/OT"
+            },
+            {
+                "date": "Feb. 23",
+                "time": "8:00 ET",
+                "team": "Michigan",
+                "team_score": "0",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "6:30 ET",
+                "team": "Michigan",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Michigan",
+                "team_score": "4",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Michigan",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "ohio-state": {
         "statistics": {
             "players": [
+                {
+                    "name": "Stephen Halliday",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "38",
+                    "g": "10",
+                    "a": "26",
+                    "pts": "36",
+                    "ptgm": "0.9474",
+                    "pen": "7",
+                    "pim": "30",
+                    "gwg": "1",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Scooter Brickey",
                     "position": "D",
@@ -3369,11 +3617,69 @@
                 "weight": "208",
                 "hometown": "Pickney, Mich."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 2",
+                "time": "5:00 ET",
+                "team": "Penn State",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 CT",
+                "team": "Wisconsin",
+                "team_score": "3",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:00 CT",
+                "team": "Wisconsin",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 10",
+                "time": "5:00 CT",
+                "team": "Wisconsin",
+                "team_score": "3",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "6:30 ET",
+                "team": "Michigan State",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            }
         ]
     },
     "penn-state": {
         "statistics": {
             "players": [
+                {
+                    "name": "Aiden Fink",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "34",
+                    "g": "15",
+                    "a": "19",
+                    "pts": "34",
+                    "ptgm": "1.0000",
+                    "pen": "8",
+                    "pim": "27",
+                    "gwg": "1",
+                    "ppg": "8",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Danny Dzhaniyev",
                     "position": "F",
@@ -4011,11 +4317,69 @@
                 "weight": "170",
                 "hometown": "San Jose, Calif."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "5:00 ET",
+                "team": "Wisconsin",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L/OT"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "6:00 ET",
+                "team": "Ohio State",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "5:00 ET",
+                "team": "Ohio State",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "6:00 CT",
+                "team": "Minnesota",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "3:30 CT",
+                "team": "Minnesota",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "wisconsin": {
         "statistics": {
             "players": [
+                {
+                    "name": "Cruz Lucius",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "36",
+                    "g": "13",
+                    "a": "21",
+                    "pts": "34",
+                    "ptgm": "0.9444",
+                    "pen": "5",
+                    "pim": "10",
+                    "gwg": "1",
+                    "ppg": "5",
+                    "shg": "0",
+                    "eng": "3"
+                },
                 {
                     "name": "David Silye",
                     "position": "F",
@@ -4684,6 +5048,48 @@
                 "height": "6-4",
                 "weight": "201",
                 "hometown": "Stockholm, Sweden"
+            }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 2",
+                "time": "8:00 CT",
+                "team": "Michigan State",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 CT",
+                "team": "Ohio State",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:00 CT",
+                "team": "Ohio State",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 10",
+                "time": "5:00 CT",
+                "team": "Ohio State",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 29",
+                "time": "5:30 ET",
+                "team": "Quinnipiac",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L/OT"
             }
         ]
     }

@@ -3,6 +3,22 @@
         "statistics": {
             "players": [
                 {
+                    "name": "Brady Risk",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "33",
+                    "g": "13",
+                    "a": "20",
+                    "pts": "33",
+                    "ptgm": "1.0000",
+                    "pen": "8",
+                    "pim": "16",
+                    "gwg": "2",
+                    "ppg": "5",
+                    "shg": "0",
+                    "eng": "1"
+                },
+                {
                     "name": "Anton Rubtsov",
                     "position": "F",
                     "year": "Sr",
@@ -761,11 +777,69 @@
                 "weight": "203",
                 "hometown": "Camrose, Alta."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "7:07 AT",
+                "team": "Arizona State",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L/OT"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:07 CT",
+                "team": "Augustana",
+                "team_score": "2",
+                "opp_score": "2",
+                "result": "T/OT"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:07 CT",
+                "team": "Augustana",
+                "team_score": "2",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 6",
+                "time": "7:07 AT",
+                "team": "Stonehill",
+                "team_score": "9",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 7",
+                "time": "7:07 AT",
+                "team": "Stonehill",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            }
         ]
     },
     "alaska-anchorage": {
         "statistics": {
             "players": [
+                {
+                    "name": "Ben Almquist",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "34",
+                    "g": "14",
+                    "a": "16",
+                    "pts": "30",
+                    "ptgm": "0.8824",
+                    "pen": "7",
+                    "pim": "14",
+                    "gwg": "1",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Maximilion Helgeson",
                     "position": "F",
@@ -1559,11 +1633,69 @@
                 "weight": "0",
                 "hometown": "Saskatoon, Saskatchewan"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "6:07 CT",
+                "team": "Augustana",
+                "team_score": "0",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:07 AT",
+                "team": "Stonehill",
+                "team_score": "9",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "3:07 AT",
+                "team": "Stonehill",
+                "team_score": "12",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 AT",
+                "team": "Arizona State",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "5:07 AT",
+                "team": "Arizona State",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "lindenwood": {
         "statistics": {
             "players": [
+                {
+                    "name": "Caige Sterzer",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "28",
+                    "g": "8",
+                    "a": "14",
+                    "pts": "22",
+                    "ptgm": "0.7857",
+                    "pen": "12",
+                    "pim": "27",
+                    "gwg": "0",
+                    "ppg": "0",
+                    "shg": "1",
+                    "eng": "0"
+                },
                 {
                     "name": "Kyle Jeffers",
                     "position": "F",
@@ -2201,11 +2333,69 @@
                 "weight": "185",
                 "hometown": "Apple Valley, Minn."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 3",
+                "time": "5:00 MT",
+                "team": "Arizona State",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 9",
+                "time": "7:00 ET",
+                "team": "Stonehill",
+                "team_score": "10",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 10",
+                "time": "5:00 ET",
+                "team": "Stonehill",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 16",
+                "time": "7:10 CT",
+                "team": "Alaska Anchorage",
+                "team_score": "3",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 17",
+                "time": "6:00 CT",
+                "team": "Alaska Anchorage",
+                "team_score": "0",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "liu": {
         "statistics": {
             "players": [
+                {
+                    "name": "Isaiah Fox",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "37",
+                    "g": "14",
+                    "a": "21",
+                    "pts": "35",
+                    "ptgm": "0.9459",
+                    "pen": "21",
+                    "pim": "66",
+                    "gwg": "2",
+                    "ppg": "8",
+                    "shg": "1",
+                    "eng": "0"
+                },
                 {
                     "name": "Josh Zary",
                     "position": "F",
@@ -3008,11 +3198,69 @@
                 "weight": "165",
                 "hometown": "Helsinki, Finland"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 17",
+                "time": "7:07 AT",
+                "team": "Alaska",
+                "team_score": "0",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 23",
+                "time": "2:30 ET",
+                "team": "Stonehill",
+                "team_score": "7",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "2:00 ET",
+                "team": "Stonehill",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 MT",
+                "team": "Arizona State",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "5:00 MT",
+                "team": "Arizona State",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "stonehill": {
         "statistics": {
             "players": [
+                {
+                    "name": "Frank Ireland",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "35",
+                    "g": "9",
+                    "a": "9",
+                    "pts": "18",
+                    "ptgm": "0.5143",
+                    "pen": "10",
+                    "pim": "23",
+                    "gwg": "0",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Henri Schreifels",
                     "position": "F",
@@ -3796,6 +4044,48 @@
                 "height": "NA",
                 "weight": "",
                 "hometown": "NA, NA"
+            }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "2:00 ET",
+                "team": "LIU",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:07 AT",
+                "team": "Alaska Anchorage",
+                "team_score": "3",
+                "opp_score": "9",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "3:07 AT",
+                "team": "Alaska Anchorage",
+                "team_score": "2",
+                "opp_score": "12",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 6",
+                "time": "7:07 AT",
+                "team": "Alaska",
+                "team_score": "1",
+                "opp_score": "9",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 7",
+                "time": "7:07 AT",
+                "team": "Alaska",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
             }
         ]
     }

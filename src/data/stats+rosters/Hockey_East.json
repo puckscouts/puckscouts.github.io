@@ -3,6 +3,22 @@
         "statistics": {
             "players": [
                 {
+                    "name": "Will Smith",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "41",
+                    "g": "25",
+                    "a": "46",
+                    "pts": "71",
+                    "ptgm": "1.7317",
+                    "pen": "7",
+                    "pim": "14",
+                    "gwg": "4",
+                    "ppg": "6",
+                    "shg": "1",
+                    "eng": "1"
+                },
+                {
                     "name": "Cutter Gauthier",
                     "position": "F",
                     "year": "So",
@@ -648,11 +664,69 @@
                 "weight": "165",
                 "hometown": "Hinsdale, Ill."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 23",
+                "time": "7:30 ET",
+                "team": "Boston University",
+                "team_score": "6",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 29",
+                "time": "2:00 ET",
+                "team": "Michigan Tech",
+                "team_score": "6",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 31",
+                "time": "4:00 ET",
+                "team": "Quinnipiac",
+                "team_score": "5",
+                "opp_score": "4",
+                "result": "W/OT"
+            },
+            {
+                "date": "Apr. 11",
+                "time": "7:30 CT",
+                "team": "Michigan",
+                "team_score": "4",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Apr. 13",
+                "time": "5:00 CT",
+                "team": "Denver",
+                "team_score": "0",
+                "opp_score": "2",
+                "result": "L"
+            }
         ]
     },
     "boston-university": {
         "statistics": {
             "players": [
+                {
+                    "name": "Macklin Celebrini",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "38",
+                    "g": "32",
+                    "a": "32",
+                    "pts": "64",
+                    "ptgm": "1.6842",
+                    "pen": "9",
+                    "pim": "18",
+                    "gwg": "4",
+                    "ppg": "12",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Lane Hutson",
                     "position": "D",
@@ -1386,6 +1460,48 @@
                 "weight": "186",
                 "hometown": "Montreal, Que."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 22",
+                "time": "7:30 ET",
+                "team": "Maine",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 23",
+                "time": "7:30 ET",
+                "team": "Boston College",
+                "team_score": "2",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 28",
+                "time": "4:00 CT",
+                "team": "RIT",
+                "team_score": "6",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 30",
+                "time": "5:30 CT",
+                "team": "Minnesota",
+                "team_score": "6",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Apr. 11",
+                "time": "4:00 CT",
+                "team": "Denver",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L/OT"
+            }
         ]
     },
     "uconn": {
@@ -1646,11 +1762,28 @@
                 "weight": "0",
                 "hometown": "Lake View, New York"
             }
-        ]
+        ],
+        "last_five_games": []
     },
     "maine": {
         "statistics": {
             "players": [
+                {
+                    "name": "Bradly Nadeau",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "37",
+                    "g": "19",
+                    "a": "27",
+                    "pts": "46",
+                    "ptgm": "1.2432",
+                    "pen": "6",
+                    "pim": "12",
+                    "gwg": "4",
+                    "ppg": "3",
+                    "shg": "1",
+                    "eng": "1"
+                },
                 {
                     "name": "Josh Nadeau",
                     "position": "F",
@@ -2338,11 +2471,69 @@
                 "weight": "163",
                 "hometown": "St-FranÃ§ois-de-Madawaska, Canada"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Massachusetts",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Massachusetts",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "New Hampshire",
+                "team_score": "5",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "7:30 ET",
+                "team": "Boston University",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 28",
+                "time": "5:30 ET",
+                "team": "Cornell",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "massachusetts": {
         "statistics": {
             "players": [
+                {
+                    "name": "Scott Morrow",
+                    "position": "D",
+                    "year": "Jr",
+                    "gp": "37",
+                    "g": "6",
+                    "a": "24",
+                    "pts": "30",
+                    "ptgm": "0.8108",
+                    "pen": "11",
+                    "pim": "25",
+                    "gwg": "0",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Jack Musa",
                     "position": "F",
@@ -3061,11 +3252,69 @@
                 "weight": "215",
                 "hometown": "Prague, Czechia"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Maine",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Maine",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "4:00 ET",
+                "team": "Providence",
+                "team_score": "3",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "4:00 ET",
+                "team": "Boston College",
+                "team_score": "1",
+                "opp_score": "8",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 28",
+                "time": "2:00 ET",
+                "team": "Denver",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L/0 OT"
+            }
         ]
     },
     "umass-lowell": {
         "statistics": {
             "players": [
+                {
+                    "name": "Scout Truman",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "35",
+                    "g": "7",
+                    "a": "14",
+                    "pts": "21",
+                    "ptgm": "0.6000",
+                    "pen": "9",
+                    "pim": "18",
+                    "gwg": "1",
+                    "ppg": "0",
+                    "shg": "1",
+                    "eng": "1"
+                },
                 {
                     "name": "Owen Cole",
                     "position": "F",
@@ -3850,11 +4099,69 @@
                 "weight": "183",
                 "hometown": "Macomb, Mich."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:15 ET",
+                "team": "Massachusetts",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L/OT"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:00 ET",
+                "team": "Massachusetts",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L/OT"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "New Hampshire",
+                "team_score": "0",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "New Hampshire",
+                "team_score": "0",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 13",
+                "time": "7:00 ET",
+                "team": "New Hampshire",
+                "team_score": "0",
+                "opp_score": "1",
+                "result": "L"
+            }
         ]
     },
     "merrimack": {
         "statistics": {
             "players": [
+                {
+                    "name": "Matt Copponi",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "30",
+                    "g": "7",
+                    "a": "25",
+                    "pts": "32",
+                    "ptgm": "1.0667",
+                    "pen": "13",
+                    "pim": "32",
+                    "gwg": "0",
+                    "ppg": "2",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Zach Bookman",
                     "position": "D",
@@ -4592,11 +4899,69 @@
                 "weight": "",
                 "hometown": "Red Deer, AB."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 17",
+                "time": "7:30 ET",
+                "team": "Vermont",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 29",
+                "time": "6:00 ET",
+                "team": "Providence",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Providence",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Boston College",
+                "team_score": "4",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 13",
+                "time": "7:15 ET",
+                "team": "Northeastern",
+                "team_score": "0",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "new-hampshire": {
         "statistics": {
             "players": [
+                {
+                    "name": "Ryan Conmy",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "34",
+                    "g": "14",
+                    "a": "17",
+                    "pts": "31",
+                    "ptgm": "0.9118",
+                    "pen": "7",
+                    "pim": "14",
+                    "gwg": "3",
+                    "ppg": "5",
+                    "shg": "1",
+                    "eng": "0"
+                },
                 {
                     "name": "Cy LeClerc",
                     "position": "F",
@@ -5327,11 +5692,69 @@
                 "weight": "190",
                 "hometown": "Alexandria, Va."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 3",
+                "time": "5:00 ET",
+                "team": "Boston College",
+                "team_score": "0",
+                "opp_score": "1",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "UMass Lowell",
+                "team_score": "4",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "UMass Lowell",
+                "team_score": "4",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 13",
+                "time": "7:00 ET",
+                "team": "UMass Lowell",
+                "team_score": "1",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Maine",
+                "team_score": "0",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "northeastern": {
         "statistics": {
             "players": [
+                {
+                    "name": "Justin Hryckowian",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "32",
+                    "g": "13",
+                    "a": "30",
+                    "pts": "43",
+                    "ptgm": "1.3438",
+                    "pen": "4",
+                    "pim": "8",
+                    "gwg": "1",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Alex Campbell",
                     "position": "F",
@@ -6068,11 +6491,69 @@
                 "weight": "185",
                 "hometown": "Orleans, Ontario"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:30 ET",
+                "team": "Connecticut",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "3:00 ET",
+                "team": "Connecticut",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "4:00 ET",
+                "team": "Providence",
+                "team_score": "3",
+                "opp_score": "3",
+                "result": "T/SWL"
+            },
+            {
+                "date": "Mar. 13",
+                "time": "7:15 ET",
+                "team": "Merrimack",
+                "team_score": "4",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "4:15 ET",
+                "team": "Boston University",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "providence": {
         "statistics": {
             "players": [
+                {
+                    "name": "Nick Poisson",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "35",
+                    "g": "9",
+                    "a": "15",
+                    "pts": "24",
+                    "ptgm": "0.6857",
+                    "pen": "8",
+                    "pim": "16",
+                    "gwg": "0",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Tanner Adams",
                     "position": "F",
@@ -6710,11 +7191,69 @@
                 "weight": "166",
                 "hometown": "Bromma, Sweden"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 29",
+                "time": "6:00 ET",
+                "team": "Merrimack",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Merrimack",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 7",
+                "time": "7:00 ET",
+                "team": "Boston University",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "4:00 ET",
+                "team": "Northeastern",
+                "team_score": "3",
+                "opp_score": "3",
+                "result": "T/SWW"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "4:00 ET",
+                "team": "Massachusetts",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "vermont": {
         "statistics": {
             "players": [
+                {
+                    "name": "Jens Richards",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "32",
+                    "g": "10",
+                    "a": "11",
+                    "pts": "21",
+                    "ptgm": "0.6563",
+                    "pen": "5",
+                    "pim": "10",
+                    "gwg": "2",
+                    "ppg": "0",
+                    "shg": "2",
+                    "eng": "1"
+                },
                 {
                     "name": "Jérémie Bucheler",
                     "position": "D",
@@ -7433,6 +7972,48 @@
                 "height": "6-3",
                 "weight": "181",
                 "hometown": "HÃ¶ganÃ¤s, Sweden"
+            }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Maine",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:30 ET",
+                "team": "Maine",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 7",
+                "time": "7:00 ET",
+                "team": "Connecticut",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "4:00 ET",
+                "team": "Boston University",
+                "team_score": "1",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 13",
+                "time": "7:00 ET",
+                "team": "Connecticut",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
             }
         ]
     }

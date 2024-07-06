@@ -3,6 +3,22 @@
         "statistics": {
             "players": [
                 {
+                    "name": "Lukas Sillinger",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "38",
+                    "g": "11",
+                    "a": "37",
+                    "pts": "48",
+                    "ptgm": "1.2632",
+                    "pen": "5",
+                    "pim": "10",
+                    "gwg": "1",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "0"
+                },
+                {
                     "name": "Tim Lovell",
                     "position": "D",
                     "year": "Jr",
@@ -770,11 +786,69 @@
                 "weight": "181",
                 "hometown": "Hingham, MA"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "7:07 AT",
+                "team": "Alaska",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 MT",
+                "team": "LIU",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "5:00 MT",
+                "team": "LIU",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 AT",
+                "team": "Alaska Anchorage",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "5:07 AT",
+                "team": "Alaska Anchorage",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            }
         ]
     },
     "colorado-college": {
         "statistics": {
             "players": [
+                {
+                    "name": "Noah Laba",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "36",
+                    "g": "20",
+                    "a": "17",
+                    "pts": "37",
+                    "ptgm": "1.0278",
+                    "pen": "12",
+                    "pim": "27",
+                    "gwg": "7",
+                    "ppg": "4",
+                    "shg": "3",
+                    "eng": "2"
+                },
                 {
                     "name": "Gleb Veremyev",
                     "position": "F",
@@ -1462,11 +1536,69 @@
                 "weight": "174",
                 "hometown": "Grand Forks, ND"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 8",
+                "time": "8:00 MT",
+                "team": "Denver",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 MT",
+                "team": "Denver",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:07 MT",
+                "team": "Nebraska-Omaha",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "6:07 MT",
+                "team": "Nebraska-Omaha",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 17",
+                "time": "6:07 MT",
+                "team": "Nebraska-Omaha",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            }
         ]
     },
     "denver": {
         "statistics": {
             "players": [
+                {
+                    "name": "Jack Devine",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "44",
+                    "g": "27",
+                    "a": "29",
+                    "pts": "56",
+                    "ptgm": "1.2727",
+                    "pen": "10",
+                    "pim": "20",
+                    "gwg": "3",
+                    "ppg": "9",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Zeev Buium",
                     "position": "D",
@@ -2135,11 +2267,69 @@
                 "weight": "190",
                 "hometown": "Los Angeles, California"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 23",
+                "time": "7:30 CT",
+                "team": "Nebraska-Omaha",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 28",
+                "time": "2:00 ET",
+                "team": "Massachusetts",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W/0 OT"
+            },
+            {
+                "date": "Mar. 30",
+                "time": "4:00 ET",
+                "team": "Cornell",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Apr. 11",
+                "time": "4:00 CT",
+                "team": "Boston University",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W/OT"
+            },
+            {
+                "date": "Apr. 13",
+                "time": "5:00 CT",
+                "team": "Boston College",
+                "team_score": "2",
+                "opp_score": "0",
+                "result": "W"
+            }
         ]
     },
     "miami": {
         "statistics": {
             "players": [
+                {
+                    "name": "Matthew Barbolini",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "31",
+                    "g": "11",
+                    "a": "14",
+                    "pts": "25",
+                    "ptgm": "0.8065",
+                    "pen": "16",
+                    "pim": "40",
+                    "gwg": "0",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "PJ Fletcher",
                     "position": "F",
@@ -2867,11 +3057,69 @@
                 "weight": "178",
                 "hometown": "Fenton, Mich."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 2",
+                "time": "7:05 ET",
+                "team": "Nebraska-Omaha",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Western Michigan",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:00 ET",
+                "team": "Western Michigan",
+                "team_score": "1",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:07 CT",
+                "team": "North Dakota",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "6:07 CT",
+                "team": "North Dakota",
+                "team_score": "1",
+                "opp_score": "7",
+                "result": "L"
+            }
         ]
     },
     "minnesota-duluth": {
         "statistics": {
             "players": [
+                {
+                    "name": "Ben Steeves",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "37",
+                    "g": "24",
+                    "a": "10",
+                    "pts": "34",
+                    "ptgm": "0.9189",
+                    "pen": "11",
+                    "pim": "30",
+                    "gwg": "6",
+                    "ppg": "13",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Owen Gallatin",
                     "position": "D",
@@ -3540,11 +3788,69 @@
                 "weight": "0",
                 "hometown": "NA, NA"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 2",
+                "time": "6:00 MT",
+                "team": "Colorado College",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 CT",
+                "team": "St. Cloud State",
+                "team_score": "6",
+                "opp_score": "5",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:07 CT",
+                "team": "St. Cloud State",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:07 MT",
+                "team": "Denver",
+                "team_score": "0",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "6:07 MT",
+                "team": "Denver",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "north-dakota": {
         "statistics": {
             "players": [
+                {
+                    "name": "Jackson Blake",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "40",
+                    "g": "22",
+                    "a": "38",
+                    "pts": "60",
+                    "ptgm": "1.5000",
+                    "pen": "13",
+                    "pim": "26",
+                    "gwg": "5",
+                    "ppg": "5",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Owen McLaughlin",
                     "position": "F",
@@ -4214,11 +4520,69 @@
                 "weight": "191",
                 "hometown": "Heron Lake, Minn."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 9",
+                "time": "7:07 CT",
+                "team": "Nebraska-Omaha",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:07 CT",
+                "team": "Miami",
+                "team_score": "5",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "6:07 CT",
+                "team": "Miami",
+                "team_score": "7",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "4:07 CT",
+                "team": "Nebraska-Omaha",
+                "team_score": "3",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 29",
+                "time": "7:30 CT",
+                "team": "Michigan",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "omaha": {
         "statistics": {
             "players": [
+                {
+                    "name": "Tanner Ludtke",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "40",
+                    "g": "11",
+                    "a": "17",
+                    "pts": "28",
+                    "ptgm": "0.7000",
+                    "pen": "14",
+                    "pim": "28",
+                    "gwg": "1",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Griffin Ludtke",
                     "position": "D",
@@ -4872,11 +5236,69 @@
                 "weight": "180",
                 "hometown": "Elko, Minn."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 16",
+                "time": "6:07 MT",
+                "team": "Colorado College",
+                "team_score": "3",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 17",
+                "time": "6:07 MT",
+                "team": "Colorado College",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "4:07 CT",
+                "team": "North Dakota",
+                "team_score": "6",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 23",
+                "time": "7:30 CT",
+                "team": "Denver",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 28",
+                "time": "7:30 CT",
+                "team": "Minnesota",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "st-cloud-state": {
         "statistics": {
             "players": [
+                {
+                    "name": "Veeti Miettinen",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "37",
+                    "g": "20",
+                    "a": "15",
+                    "pts": "35",
+                    "ptgm": "0.9459",
+                    "pen": "0",
+                    "pim": "0",
+                    "gwg": "4",
+                    "ppg": "8",
+                    "shg": "2",
+                    "eng": "0"
+                },
                 {
                     "name": "Dylan Anhorn",
                     "position": "D",
@@ -5586,11 +6008,69 @@
                 "weight": "210",
                 "hometown": "Umea, Sweden"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 9",
+                "time": "6:07 CT",
+                "team": "Minnesota Duluth",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:37 CT",
+                "team": "Western Michigan",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "6:07 CT",
+                "team": "Western Michigan",
+                "team_score": "1",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 17",
+                "time": "6:07 CT",
+                "team": "Western Michigan",
+                "team_score": "5",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "7:37 CT",
+                "team": "Denver",
+                "team_score": "4",
+                "opp_score": "5",
+                "result": "L/OT"
+            }
         ]
     },
     "western-michigan": {
         "statistics": {
             "players": [
+                {
+                    "name": "Luke Grainger",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "38",
+                    "g": "14",
+                    "a": "34",
+                    "pts": "48",
+                    "ptgm": "1.2632",
+                    "pen": "9",
+                    "pim": "21",
+                    "gwg": "2",
+                    "ppg": "2",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Dylan Wendt",
                     "position": "F",
@@ -6264,6 +6744,48 @@
                 "height": "6-1",
                 "weight": "190",
                 "hometown": "Northville, Mich."
+            }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 9",
+                "time": "6:00 ET",
+                "team": "Miami",
+                "team_score": "6",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:37 CT",
+                "team": "St. Cloud State",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "6:07 CT",
+                "team": "St. Cloud State",
+                "team_score": "6",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 17",
+                "time": "6:07 CT",
+                "team": "St. Cloud State",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 29",
+                "time": "4:00 CT",
+                "team": "Michigan State",
+                "team_score": "4",
+                "opp_score": "5",
+                "result": "L/OT"
             }
         ]
     }

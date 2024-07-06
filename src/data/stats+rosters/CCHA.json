@@ -3,6 +3,22 @@
         "statistics": {
             "players": [
                 {
+                    "name": "Ryan Naumovski",
+                    "position": "F",
+                    "year": "Gr",
+                    "gp": "34",
+                    "g": "8",
+                    "a": "17",
+                    "pts": "25",
+                    "ptgm": "0.7353",
+                    "pen": "0",
+                    "pim": "0",
+                    "gwg": "1",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "0"
+                },
+                {
                     "name": "Luke Mobley",
                     "position": "F",
                     "year": "Sr",
@@ -451,11 +467,69 @@
                 }
             ]
         },
-        "roster": []
+        "roster": [],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "6:07 CT",
+                "team": "Alaska Anchorage",
+                "team_score": "3",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:07 CT",
+                "team": "Alaska",
+                "team_score": "2",
+                "opp_score": "2",
+                "result": "T/OT"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:07 CT",
+                "team": "Alaska",
+                "team_score": "0",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 CT",
+                "team": "USNTP",
+                "team_score": "3",
+                "opp_score": "8",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:07 CT",
+                "team": "USNTP",
+                "team_score": "0",
+                "opp_score": "3",
+                "result": "L"
+            }
+        ]
     },
     "bemidji-state": {
         "statistics": {
             "players": [
+                {
+                    "name": "Lleyton Roed",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "38",
+                    "g": "14",
+                    "a": "16",
+                    "pts": "30",
+                    "ptgm": "0.7895",
+                    "pen": "8",
+                    "pim": "16",
+                    "gwg": "3",
+                    "ppg": "5",
+                    "shg": "1",
+                    "eng": "1"
+                },
                 {
                     "name": "Kyle Looft",
                     "position": "D",
@@ -1190,11 +1264,69 @@
                 "weight": "196",
                 "hometown": "Fredrikstad, Norway"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 2",
+                "time": "6:07 CT",
+                "team": "Minnesota State",
+                "team_score": "2",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 CT",
+                "team": "Ferris State",
+                "team_score": "5",
+                "opp_score": "4",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:07 CT",
+                "team": "Ferris State",
+                "team_score": "4",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:07 CT",
+                "team": "Lake Superior",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "7:07 CT",
+                "team": "Michigan Tech",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            }
         ]
     },
     "bowling-green": {
         "statistics": {
             "players": [
+                {
+                    "name": "Ryan O'Hara",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "26",
+                    "g": "10",
+                    "a": "8",
+                    "pts": "18",
+                    "ptgm": "0.6923",
+                    "pen": "6",
+                    "pim": "12",
+                    "gwg": "1",
+                    "ppg": "1",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Spencer Kersten",
                     "position": "F",
@@ -1839,11 +1971,69 @@
                 "weight": "36",
                 "hometown": ", "
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "7:07 ET",
+                "team": "Michigan Tech",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:07 ET",
+                "team": "Northern Michigan",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:07 ET",
+                "team": "Northern Michigan",
+                "team_score": "0",
+                "opp_score": "1",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 ET",
+                "team": "Michigan Tech",
+                "team_score": "0",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:07 ET",
+                "team": "Michigan Tech",
+                "team_score": "5",
+                "opp_score": "6",
+                "result": "L"
+            }
         ]
     },
     "ferris-state": {
         "statistics": {
             "players": [
+                {
+                    "name": "Antonio Venuto",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "36",
+                    "g": "12",
+                    "a": "14",
+                    "pts": "26",
+                    "ptgm": "0.7222",
+                    "pen": "11",
+                    "pim": "28",
+                    "gwg": "2",
+                    "ppg": "5",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Luigi Benincasa",
                     "position": "F",
@@ -2531,11 +2721,69 @@
                 "weight": "",
                 "hometown": "Crystal Lake, Ill."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 23",
+                "time": "7:07 ET",
+                "team": "Northern Michigan",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "5:07 ET",
+                "team": "Northern Michigan",
+                "team_score": "1",
+                "opp_score": "1",
+                "result": "T/SWW"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:07 ET",
+                "team": "Lake Superior",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 CT",
+                "team": "Bemidji State",
+                "team_score": "4",
+                "opp_score": "5",
+                "result": "L/OT"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:07 CT",
+                "team": "Bemidji State",
+                "team_score": "0",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "lake-superior": {
         "statistics": {
             "players": [
+                {
+                    "name": "Jared Westcott",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "38",
+                    "g": "18",
+                    "a": "18",
+                    "pts": "36",
+                    "ptgm": "0.9474",
+                    "pen": "20",
+                    "pim": "43",
+                    "gwg": "4",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "2"
+                },
                 {
                     "name": "Connor Milburn",
                     "position": "F",
@@ -3304,11 +3552,69 @@
                 "weight": "",
                 "hometown": "Oskarshamn, Sweden"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:07 ET",
+                "team": "Ferris State",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 CT",
+                "team": "St. Thomas",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:07 CT",
+                "team": "St. Thomas",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 10",
+                "time": "6:07 CT",
+                "team": "St. Thomas",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:07 CT",
+                "team": "Bemidji State",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "michigan-tech": {
         "statistics": {
             "players": [
+                {
+                    "name": "Isaac Gordon",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "40",
+                    "g": "18",
+                    "a": "18",
+                    "pts": "36",
+                    "ptgm": "0.9000",
+                    "pen": "2",
+                    "pim": "4",
+                    "gwg": "1",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Ryland Mosley",
                     "position": "F",
@@ -4078,11 +4384,69 @@
                 "weight": "",
                 "hometown": "Howell, Mich."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 8",
+                "time": "7:07 ET",
+                "team": "Bowling Green",
+                "team_score": "5",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:07 ET",
+                "team": "Bowling Green",
+                "team_score": "6",
+                "opp_score": "5",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "5:07 ET",
+                "team": "Minnesota State",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "7:07 CT",
+                "team": "Bemidji State",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 29",
+                "time": "2:00 ET",
+                "team": "Boston College",
+                "team_score": "1",
+                "opp_score": "6",
+                "result": "L"
+            }
         ]
     },
     "minnesota-state": {
         "statistics": {
             "players": [
+                {
+                    "name": "Sam Morton",
+                    "position": "F",
+                    "year": "Gr",
+                    "gp": "37",
+                    "g": "24",
+                    "a": "10",
+                    "pts": "34",
+                    "ptgm": "0.9189",
+                    "pen": "5",
+                    "pim": "10",
+                    "gwg": "1",
+                    "ppg": "9",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Lucas Sowder",
                     "position": "F",
@@ -4761,11 +5125,69 @@
                 "weight": "205",
                 "hometown": "Clarkston, Mich."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:07 CT",
+                "team": "Bemidji State",
+                "team_score": "0",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:07 CT",
+                "team": "Bemidji State",
+                "team_score": "0",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 CT",
+                "team": "Northern Michigan",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:07 CT",
+                "team": "Northern Michigan",
+                "team_score": "6",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "5:07 ET",
+                "team": "Michigan Tech",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "northern-michigan": {
         "statistics": {
             "players": [
+                {
+                    "name": "André Ghantous",
+                    "position": "F",
+                    "year": "Gr",
+                    "gp": "34",
+                    "g": "9",
+                    "a": "23",
+                    "pts": "32",
+                    "ptgm": "0.9412",
+                    "pen": "17",
+                    "pim": "42",
+                    "gwg": "1",
+                    "ppg": "3",
+                    "shg": "1",
+                    "eng": "0"
+                },
                 {
                     "name": "Artem Shlaine",
                     "position": "F",
@@ -5487,11 +5909,69 @@
                 "weight": "196",
                 "hometown": "Odense, Denmark"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "5:07 ET",
+                "team": "Ferris State",
+                "team_score": "1",
+                "opp_score": "1",
+                "result": "T/SWL"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:07 ET",
+                "team": "Bowling Green",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:07 ET",
+                "team": "Bowling Green",
+                "team_score": "1",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 CT",
+                "team": "Minnesota State",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:07 CT",
+                "team": "Minnesota State",
+                "team_score": "1",
+                "opp_score": "6",
+                "result": "L"
+            }
         ]
     },
     "st-thomas": {
         "statistics": {
             "players": [
+                {
+                    "name": "Lucas Wahlin",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "37",
+                    "g": "12",
+                    "a": "18",
+                    "pts": "30",
+                    "ptgm": "0.8108",
+                    "pen": "17",
+                    "pim": "48",
+                    "gwg": "1",
+                    "ppg": "2",
+                    "shg": "1",
+                    "eng": "1"
+                },
                 {
                     "name": "Liam Malmquist",
                     "position": "F",
@@ -6228,6 +6708,48 @@
                 "height": "NA",
                 "weight": "0",
                 "hometown": "Calgary, Alberta"
+            }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:07 ET",
+                "team": "Michigan Tech",
+                "team_score": "2",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:07 ET",
+                "team": "Michigan Tech",
+                "team_score": "0",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:07 CT",
+                "team": "Lake Superior",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "6:07 CT",
+                "team": "Lake Superior",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 10",
+                "time": "6:07 CT",
+                "team": "Lake Superior",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
             }
         ]
     }

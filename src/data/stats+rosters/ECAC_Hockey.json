@@ -3,6 +3,22 @@
         "statistics": {
             "players": [
                 {
+                    "name": "Ryan St. Louis",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "30",
+                    "g": "13",
+                    "a": "11",
+                    "pts": "24",
+                    "ptgm": "0.8000",
+                    "pen": "2",
+                    "pim": "4",
+                    "gwg": "3",
+                    "ppg": "2",
+                    "shg": "0",
+                    "eng": "0"
+                },
+                {
                     "name": "Ryan Bottrill",
                     "position": "F",
                     "year": "So",
@@ -723,11 +739,69 @@
                 "weight": "170",
                 "hometown": "Beijing, China"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 23",
+                "time": "7:00 ET",
+                "team": "Quinnipiac",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "7:00 ET",
+                "team": "Princeton",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Dartmouth",
+                "team_score": "3",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Harvard",
+                "team_score": "1",
+                "opp_score": "1",
+                "result": "T/SWW"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "4:00 ET",
+                "team": "Union",
+                "team_score": "0",
+                "opp_score": "6",
+                "result": "L"
+            }
         ]
     },
     "clarkson": {
         "statistics": {
             "players": [
+                {
+                    "name": "Mathieu Gosselin",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "31",
+                    "g": "11",
+                    "a": "17",
+                    "pts": "28",
+                    "ptgm": "0.9032",
+                    "pen": "12",
+                    "pim": "35",
+                    "gwg": "3",
+                    "ppg": "5",
+                    "shg": "0",
+                    "eng": "2"
+                },
                 {
                     "name": "Ayrton Martino",
                     "position": "F",
@@ -1446,11 +1520,69 @@
                 "weight": "185",
                 "hometown": "Woodbridge, ONT"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 23",
+                "time": "7:00 ET",
+                "team": "Cornell",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W/OT"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "7:00 ET",
+                "team": "Colgate",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L/OT"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Quinnipiac",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Princeton",
+                "team_score": "6",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Rensselaer",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "colgate": {
         "statistics": {
             "players": [
+                {
+                    "name": "Ross Mitton",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "34",
+                    "g": "11",
+                    "a": "19",
+                    "pts": "30",
+                    "ptgm": "0.8824",
+                    "pen": "7",
+                    "pim": "14",
+                    "gwg": "2",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Daniel Panetta",
                     "position": "F",
@@ -2119,11 +2251,69 @@
                 "weight": "198",
                 "hometown": "Plymouth, Minn."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 24",
+                "time": "7:00 ET",
+                "team": "Clarkson",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Rensselaer",
+                "team_score": "6",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Union",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "St. Lawrence",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L/0 OT"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "St. Lawrence",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "cornell": {
         "statistics": {
             "players": [
+                {
+                    "name": "Gabriel Seger",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "35",
+                    "g": "14",
+                    "a": "30",
+                    "pts": "44",
+                    "ptgm": "1.2571",
+                    "pen": "8",
+                    "pim": "16",
+                    "gwg": "2",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "2"
+                },
                 {
                     "name": "Dalton Bancroft",
                     "position": "F",
@@ -2795,11 +2985,69 @@
                 "weight": "194",
                 "hometown": "Etobicoke, Ontario"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Harvard",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "7:30 ET",
+                "team": "Dartmouth",
+                "team_score": "6",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 23",
+                "time": "5:00 ET",
+                "team": "St. Lawrence",
+                "team_score": "3",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 28",
+                "time": "5:30 ET",
+                "team": "Maine",
+                "team_score": "3",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 30",
+                "time": "4:00 ET",
+                "team": "Denver",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            }
         ]
     },
     "dartmouth": {
         "statistics": {
             "players": [
+                {
+                    "name": "Luke Haymes",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "31",
+                    "g": "18",
+                    "a": "18",
+                    "pts": "36",
+                    "ptgm": "1.1613",
+                    "pen": "6",
+                    "pim": "12",
+                    "gwg": "4",
+                    "ppg": "6",
+                    "shg": "0",
+                    "eng": "2"
+                },
                 {
                     "name": "Cooper Flinton",
                     "position": "F",
@@ -3443,11 +3691,69 @@
                 "weight": "175",
                 "hometown": "Airdrie, Alta."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Brown",
+                "team_score": "5",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Yale",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "Union",
+                "team_score": "3",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Union",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "7:30 ET",
+                "team": "Cornell",
+                "team_score": "3",
+                "opp_score": "6",
+                "result": "L"
+            }
         ]
     },
     "harvard": {
         "statistics": {
             "players": [
+                {
+                    "name": "Joe Miller",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "32",
+                    "g": "13",
+                    "a": "14",
+                    "pts": "27",
+                    "ptgm": "0.8438",
+                    "pen": "4",
+                    "pim": "8",
+                    "gwg": "1",
+                    "ppg": "4",
+                    "shg": "2",
+                    "eng": "1"
+                },
                 {
                     "name": "Ryan Healey",
                     "position": "D",
@@ -4123,11 +4429,69 @@
                 "weight": "168",
                 "hometown": "Old Tappan, N.J."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Yale",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Brown",
+                "team_score": "1",
+                "opp_score": "1",
+                "result": "T/SWL"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Princeton",
+                "team_score": "1",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "Cornell",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Cornell",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "princeton": {
         "statistics": {
             "players": [
+                {
+                    "name": "Adam Robbins",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "30",
+                    "g": "11",
+                    "a": "18",
+                    "pts": "29",
+                    "ptgm": "0.9667",
+                    "pen": "4",
+                    "pim": "8",
+                    "gwg": "3",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "David Jacobs",
                     "position": "F",
@@ -4821,11 +5185,69 @@
                 "weight": "185",
                 "hometown": "Ho Ho Kus, N.J."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 23",
+                "time": "7:00 ET",
+                "team": "Yale",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "7:00 ET",
+                "team": "Brown",
+                "team_score": "5",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "St. Lawrence",
+                "team_score": "4",
+                "opp_score": "4",
+                "result": "T/SWL"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Clarkson",
+                "team_score": "2",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Harvard",
+                "team_score": "0",
+                "opp_score": "1",
+                "result": "L"
+            }
         ]
     },
     "quinnipiac": {
         "statistics": {
             "players": [
+                {
+                    "name": "Collin Graf",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "34",
+                    "g": "22",
+                    "a": "27",
+                    "pts": "49",
+                    "ptgm": "1.4412",
+                    "pen": "2",
+                    "pim": "4",
+                    "gwg": "3",
+                    "ppg": "8",
+                    "shg": "0",
+                    "eng": "2"
+                },
                 {
                     "name": "Jacob Quillan",
                     "position": "F",
@@ -5510,11 +5932,69 @@
                 "weight": "157",
                 "hometown": "Nitra, Slovakia"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "Rensselaer",
+                "team_score": "5",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Rensselaer",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "4:00 ET",
+                "team": "St. Lawrence",
+                "team_score": "0",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 29",
+                "time": "5:30 ET",
+                "team": "Wisconsin",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 31",
+                "time": "4:00 ET",
+                "team": "Boston College",
+                "team_score": "4",
+                "opp_score": "5",
+                "result": "L/OT"
+            }
         ]
     },
     "rensselaer": {
         "statistics": {
             "players": [
+                {
+                    "name": "Austin Heidemann",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "37",
+                    "g": "11",
+                    "a": "16",
+                    "pts": "27",
+                    "ptgm": "0.7297",
+                    "pen": "4",
+                    "pim": "8",
+                    "gwg": "2",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Sutter Muzzatti",
                     "position": "F",
@@ -6265,11 +6745,69 @@
                 "weight": "0",
                 "hometown": "Hawkesbury, ON"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Colgate",
+                "team_score": "2",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Cornell",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Clarkson",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "Quinnipiac",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Quinnipiac",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "st-lawrence": {
         "statistics": {
             "players": [
+                {
+                    "name": "Felikss Gavars",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "39",
+                    "g": "13",
+                    "a": "12",
+                    "pts": "25",
+                    "ptgm": "0.6410",
+                    "pen": "7",
+                    "pim": "14",
+                    "gwg": "1",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Drake Burgin",
                     "position": "D",
@@ -7038,11 +7576,69 @@
                 "weight": "195",
                 "hometown": "Cranbury, N.J."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Yale",
+                "team_score": "4",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "Colgate",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W/0 OT"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Colgate",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 22",
+                "time": "4:00 ET",
+                "team": "Quinnipiac",
+                "team_score": "3",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 23",
+                "time": "5:00 ET",
+                "team": "Cornell",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "union": {
         "statistics": {
             "players": [
+                {
+                    "name": "John Prokop",
+                    "position": "D",
+                    "year": "So",
+                    "gp": "36",
+                    "g": "8",
+                    "a": "27",
+                    "pts": "35",
+                    "ptgm": "0.9722",
+                    "pen": "12",
+                    "pim": "35",
+                    "gwg": "1",
+                    "ppg": "4",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Caden Villegas",
                     "position": "F",
@@ -7786,11 +8382,69 @@
                 "weight": "185",
                 "hometown": "Minneapolis, Minn."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Cornell",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Colgate",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "4:00 ET",
+                "team": "Brown",
+                "team_score": "6",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "Dartmouth",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Dartmouth",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "yale": {
         "statistics": {
             "players": [
+                {
+                    "name": "David Chen",
+                    "position": "F",
+                    "year": "So",
+                    "gp": "30",
+                    "g": "9",
+                    "a": "9",
+                    "pts": "18",
+                    "ptgm": "0.6000",
+                    "pen": "8",
+                    "pim": "19",
+                    "gwg": "2",
+                    "ppg": "2",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Briggs Gammill",
                     "position": "F",
@@ -8477,6 +9131,48 @@
                 "height": "NA",
                 "weight": "0",
                 "hometown": "Calgary, Alberta"
+            }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 17",
+                "time": "7:00 ET",
+                "team": "Cornell",
+                "team_score": "1",
+                "opp_score": "1",
+                "result": "T/SWL"
+            },
+            {
+                "date": "Feb. 23",
+                "time": "7:00 ET",
+                "team": "Princeton",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 1",
+                "time": "7:00 ET",
+                "team": "Harvard",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L/OT"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Dartmouth",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "St. Lawrence",
+                "team_score": "2",
+                "opp_score": "4",
+                "result": "L"
             }
         ]
     }

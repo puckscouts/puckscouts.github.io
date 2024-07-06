@@ -153,6 +153,7 @@ const NCAATeamPage = () => {
           conference: conference.name,
           logo: team.logo,
           record: team.record,
+          lastFiveGames: teamData.last_five_games,  // Fetch last five games data
           ...teamData
         };
       }
@@ -292,11 +293,40 @@ const NCAATeamPage = () => {
 
   return (
     <div className="team-page-container">
-      <div className="team-info">
-        <h1 className="team-name">{displayTeamName}</h1>
-        <p className="team-record"><span className="bold-text">23-24 Record:</span> {team.record.W}-{team.record.L}-{team.record.T}</p>
-        <div className="team-logo-box">
-          <img src={team.logo} alt={displayTeamName} className="team-logo" />
+      <div className="team-info-container">
+        <div className="team-info">
+          <h1 className="team-name">{displayTeamName}</h1>
+          <p className="team-record"><span className="bold-text">23-24 Record:</span> {team.record.W}-{team.record.L}-{team.record.T}</p>
+          <div className="team-logo-box">
+            <img src={team.logo} alt={displayTeamName} className="team-logo" />
+          </div>
+        </div>
+        <div className="last-five-games">
+          <h2>Last Five Games</h2>
+          <table className="last-five-games-table">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Opponent</th>
+                <th>Team Score</th>
+                <th>Opponent Score</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody>
+              {team.lastFiveGames.map((game, index) => (
+                <tr key={index}>
+                  <td>{game.date}</td>
+                  <td>{game.time}</td>
+                  <td>{game.team}</td>
+                  <td>{game.team_score}</td>
+                  <td>{game.opp_score}</td>
+                  <td>{game.result}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </div>
       <div className="view-toggle">
@@ -376,34 +406,38 @@ const NCAATeamPage = () => {
           <table className="statistics-table">
             <thead>
               <tr>
-                <th onClick={() => requestSort('name')} className={getClassNamesFor('name')}>Player (Yr)</th>
+                <th onClick={() => requestSort('name')} className={getClassNamesFor('name')}>Goalie Name (Yr)</th>
                 <th onClick={() => requestSort('gp')} className={getClassNamesFor('gp')}>GP</th>
                 <th onClick={() => requestSort('w')} className={getClassNamesFor('w')}>W</th>
                 <th onClick={() => requestSort('l')} className={getClassNamesFor('l')}>L</th>
                 <th onClick={() => requestSort('t')} className={getClassNamesFor('t')}>T</th>
+                <th onClick={() => requestSort('win%')} className={getClassNamesFor('win%')}>Win%</th>
                 <th onClick={() => requestSort('ga')} className={getClassNamesFor('ga')}>GA</th>
+                <th onClick={() => requestSort('min')} className={getClassNamesFor('min')}>Min</th>
                 <th onClick={() => requestSort('gaa')} className={getClassNamesFor('gaa')}>GAA</th>
+                <th onClick={() => requestSort('sho')} className={getClassNamesFor('sho')}>SHO</th>
                 <th onClick={() => requestSort('sv')} className={getClassNamesFor('sv')}>SV</th>
                 <th onClick={() => requestSort('sv%')} className={getClassNamesFor('sv%')}>SV%</th>
-                <th onClick={() => requestSort('sho')} className={getClassNamesFor('sho')}>SHO</th>
               </tr>
             </thead>
             <tbody>
-              {sortedGoaltending.map((goalie, index) => (
-                <tr key={index}>
-                  <td>{`${goalie.name} / ${goalie.year}`}</td>
-                  <td>{goalie.gp}</td>
-                  <td>{goalie.w}</td>
-                  <td>{goalie.l}</td>
-                  <td>{goalie.t}</td>
-                  <td>{goalie.ga}</td>
-                  <td>{goalie.gaa}</td>
-                  <td>{goalie.sv}</td>
-                  <td>{goalie['sv%']}</td>
-                  <td>{goalie.sho}</td>
-                </tr>
-              ))}
-            </tbody>
+  {sortedGoaltending.map((goalie, index) => (
+            <tr key={index}>
+              <td>{`${goalie.name} / ${goalie.year}`}</td>
+              <td>{goalie.gp}</td>
+              <td>{goalie.w}</td>
+              <td>{goalie.l}</td>
+              <td>{goalie.t}</td>
+              <td>{goalie['win%']}</td>
+              <td>{goalie.ga}</td>
+              <td>{goalie.min}</td>
+              <td>{goalie.gaa}</td>
+              <td>{goalie.sho}</td>
+              <td>{goalie.sv}</td>
+              <td>{goalie['sv%']}</td>
+            </tr>
+          ))}
+        </tbody>
           </table>
         </div>
       )}

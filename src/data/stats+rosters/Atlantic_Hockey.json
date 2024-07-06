@@ -3,6 +3,22 @@
         "statistics": {
             "players": [
                 {
+                    "name": "Chris Hedden",
+                    "position": "D",
+                    "year": "So",
+                    "gp": "38",
+                    "g": "8",
+                    "a": "29",
+                    "pts": "37",
+                    "ptgm": "0.9737",
+                    "pen": "13",
+                    "pim": "29",
+                    "gwg": "3",
+                    "ppg": "6",
+                    "shg": "1",
+                    "eng": "1"
+                },
+                {
                     "name": "Will Gavin",
                     "position": "F",
                     "year": "Sr",
@@ -797,11 +813,69 @@
                 "weight": "205",
                 "hometown": "Wakefield, R.I>"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 17",
+                "time": "5:05 ET",
+                "team": "RIT",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 23",
+                "time": "7:05 MT",
+                "team": "Robert Morris",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "5:05 MT",
+                "team": "Robert Morris",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:05 MT",
+                "team": "American International",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:05 MT",
+                "team": "American International",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L/OT"
+            }
         ]
     },
     "american-international": {
         "statistics": {
             "players": [
+                {
+                    "name": "Dustin Manz R",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "39",
+                    "g": "7",
+                    "a": "24",
+                    "pts": "31",
+                    "ptgm": "0.7949",
+                    "pen": "10",
+                    "pim": "28",
+                    "gwg": "0",
+                    "ppg": "2",
+                    "shg": "0",
+                    "eng": "2"
+                },
                 {
                     "name": "Julius Janhonen",
                     "position": "F",
@@ -1713,11 +1787,69 @@
                 "weight": "36",
                 "hometown": "Omaha, NE"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 9",
+                "time": "7:05 MT",
+                "team": "Air Force",
+                "team_score": "3",
+                "opp_score": "2",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "Holy Cross",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "Holy Cross",
+                "team_score": "3",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 17",
+                "time": "5:00 ET",
+                "team": "Holy Cross",
+                "team_score": "3",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 23",
+                "time": "7:05 ET",
+                "team": "RIT",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "army": {
         "statistics": {
             "players": [
+                {
+                    "name": "Joey Baez",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "32",
+                    "g": "15",
+                    "a": "16",
+                    "pts": "31",
+                    "ptgm": "0.9688",
+                    "pen": "3",
+                    "pim": "14",
+                    "gwg": "4",
+                    "ppg": "6",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "Max Itagaki",
                     "position": "F",
@@ -2480,11 +2612,69 @@
                 "weight": "206",
                 "hometown": "Bowling Green, Ohio"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 16",
+                "time": "7:00 ET",
+                "team": "Niagara",
+                "team_score": "3",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 17",
+                "time": "5:00 ET",
+                "team": "Niagara",
+                "team_score": "3",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 23",
+                "time": "7:00 ET",
+                "team": "American International",
+                "team_score": "2",
+                "opp_score": "2",
+                "result": "T/SWW"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "4:00 ET",
+                "team": "American International",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Niagara",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            }
         ]
     },
     "bentley": {
         "statistics": {
             "players": [
+                {
+                    "name": "Ethan Leyh",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "35",
+                    "g": "13",
+                    "a": "16",
+                    "pts": "29",
+                    "ptgm": "0.8286",
+                    "pen": "17",
+                    "pim": "34",
+                    "gwg": "3",
+                    "ppg": "5",
+                    "shg": "1",
+                    "eng": "2"
+                },
                 {
                     "name": "Stephen Castagna",
                     "position": "F",
@@ -3238,11 +3428,69 @@
                 "weight": "",
                 "hometown": "Reading, Mass."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 9",
+                "time": "7:00 ET",
+                "team": "Canisius",
+                "team_score": "3",
+                "opp_score": "0",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 10",
+                "time": "6:00 ET",
+                "team": "Canisius",
+                "team_score": "2",
+                "opp_score": "2",
+                "result": "T/SWW"
+            },
+            {
+                "date": "Feb. 22",
+                "time": "7:00 ET",
+                "team": "Holy Cross",
+                "team_score": "5",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "7:00 ET",
+                "team": "Sacred Heart",
+                "team_score": "2",
+                "opp_score": "2",
+                "result": "T/SWW"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Robert Morris",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L/OT"
+            }
         ]
     },
     "canisius": {
         "statistics": {
             "players": [
+                {
+                    "name": "Matteo Giampa",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "36",
+                    "g": "18",
+                    "a": "17",
+                    "pts": "35",
+                    "ptgm": "0.9722",
+                    "pen": "4",
+                    "pim": "8",
+                    "gwg": "2",
+                    "ppg": "2",
+                    "shg": "1",
+                    "eng": "2"
+                },
                 {
                     "name": "Max Kouznetsov",
                     "position": "F",
@@ -4036,11 +4284,69 @@
                 "weight": "190",
                 "hometown": "Richmond Hill, Ontario"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 23",
+                "time": "7:05 ET",
+                "team": "RIT",
+                "team_score": "2",
+                "opp_score": "9",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "7:00 ET",
+                "team": "RIT",
+                "team_score": "2",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:05 ET",
+                "team": "Mercyhurst",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Holy Cross",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Holy Cross",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L/0 OT"
+            }
         ]
     },
     "holy-cross": {
         "statistics": {
             "players": [
+                {
+                    "name": "Liam McLinskey",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "39",
+                    "g": "19",
+                    "a": "28",
+                    "pts": "47",
+                    "ptgm": "1.2051",
+                    "pen": "8",
+                    "pim": "24",
+                    "gwg": "3",
+                    "ppg": "7",
+                    "shg": "0",
+                    "eng": "2"
+                },
                 {
                     "name": "Jack Ricketts",
                     "position": "F",
@@ -4719,11 +5025,69 @@
                 "weight": "200",
                 "hometown": "West Chester, Pa."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Canisius",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Canisius",
+                "team_score": "2",
+                "opp_score": "1",
+                "result": "W/0 OT"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:00 ET",
+                "team": "American International",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:00 ET",
+                "team": "American International",
+                "team_score": "0",
+                "opp_score": "3",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 17",
+                "time": "5:00 ET",
+                "team": "American International",
+                "team_score": "1",
+                "opp_score": "3",
+                "result": "L"
+            }
         ]
     },
     "mercyhurst": {
         "statistics": {
             "players": [
+                {
+                    "name": "Garrett Dahm",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "35",
+                    "g": "7",
+                    "a": "21",
+                    "pts": "28",
+                    "ptgm": "0.8000",
+                    "pen": "6",
+                    "pim": "15",
+                    "gwg": "1",
+                    "ppg": "3",
+                    "shg": "1",
+                    "eng": "0"
+                },
                 {
                     "name": "Boris Skalos",
                     "position": "F",
@@ -5461,11 +5825,69 @@
                 "weight": "",
                 "hometown": "Pointe-Claire, Qc."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 17",
+                "time": "7:05 ET",
+                "team": "American International",
+                "team_score": "2",
+                "opp_score": "2",
+                "result": "T/SWW"
+            },
+            {
+                "date": "Feb. 20",
+                "time": "7:00 ET",
+                "team": "Niagara",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 22",
+                "time": "7:00 ET",
+                "team": "Niagara",
+                "team_score": "6",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "7:00 ET",
+                "team": "Niagara",
+                "team_score": "3",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "6:05 ET",
+                "team": "Canisius",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "niagara": {
         "statistics": {
             "players": [
+                {
+                    "name": "Carter Randklev",
+                    "position": "F",
+                    "year": "Sr",
+                    "gp": "37",
+                    "g": "11",
+                    "a": "20",
+                    "pts": "31",
+                    "ptgm": "0.8378",
+                    "pen": "10",
+                    "pim": "31",
+                    "gwg": "2",
+                    "ppg": "1",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Tyler Wallace",
                     "position": "F",
@@ -6209,11 +6631,69 @@
                 "weight": "195",
                 "hometown": "Erie, Pa."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Army West Point",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Sacred Heart",
+                "team_score": "6",
+                "opp_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Sacred Heart",
+                "team_score": "5",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:05 ET",
+                "team": "RIT",
+                "team_score": "1",
+                "opp_score": "4",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:05 ET",
+                "team": "RIT",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "robert-morris": {
         "statistics": {
             "players": [
+                {
+                    "name": "Tanner Klimpke",
+                    "position": "F",
+                    "year": "Fr",
+                    "gp": "37",
+                    "g": "15",
+                    "a": "11",
+                    "pts": "26",
+                    "ptgm": "0.7027",
+                    "pen": "7",
+                    "pim": "14",
+                    "gwg": "1",
+                    "ppg": "5",
+                    "shg": "0",
+                    "eng": "0"
+                },
                 {
                     "name": "Dallas Tulik",
                     "position": "F",
@@ -6973,11 +7453,69 @@
                 "weight": "190",
                 "hometown": "Mississauga, Ontario"
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 23",
+                "time": "7:05 MT",
+                "team": "Air Force",
+                "team_score": "2",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "5:05 MT",
+                "team": "Air Force",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 2",
+                "time": "7:00 ET",
+                "team": "Bentley",
+                "team_score": "4",
+                "opp_score": "3",
+                "result": "W/OT"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:05 ET",
+                "team": "RIT",
+                "team_score": "0",
+                "opp_score": "7",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:05 ET",
+                "team": "RIT",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            }
         ]
     },
     "rit": {
         "statistics": {
             "players": [
+                {
+                    "name": "Carter Wilkie",
+                    "position": "F",
+                    "year": "Jr",
+                    "gp": "40",
+                    "g": "16",
+                    "a": "25",
+                    "pts": "41",
+                    "ptgm": "1.0250",
+                    "pen": "13",
+                    "pim": "32",
+                    "gwg": "2",
+                    "ppg": "4",
+                    "shg": "3",
+                    "eng": "1"
+                },
                 {
                     "name": "Cody Laskosky",
                     "position": "F",
@@ -7662,11 +8200,69 @@
                 "weight": "205",
                 "hometown": "Sherwood, Alta."
             }
+        ],
+        "last_five_games": [
+            {
+                "date": "Mar. 9",
+                "time": "7:05 ET",
+                "team": "Robert Morris",
+                "team_score": "5",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 15",
+                "time": "7:05 ET",
+                "team": "Niagara",
+                "team_score": "4",
+                "opp_score": "1",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 16",
+                "time": "7:05 ET",
+                "team": "Niagara",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 23",
+                "time": "7:05 ET",
+                "team": "American International",
+                "team_score": "5",
+                "opp_score": "2",
+                "result": "W"
+            },
+            {
+                "date": "Mar. 28",
+                "time": "4:00 CT",
+                "team": "Boston University",
+                "team_score": "3",
+                "opp_score": "6",
+                "result": "L"
+            }
         ]
     },
     "sacred-heart": {
         "statistics": {
             "players": [
+                {
+                    "name": "TJ Walsh",
+                    "position": "F",
+                    "year": "Gr",
+                    "gp": "36",
+                    "g": "13",
+                    "a": "13",
+                    "pts": "26",
+                    "ptgm": "0.7222",
+                    "pen": "3",
+                    "pim": "6",
+                    "gwg": "4",
+                    "ppg": "3",
+                    "shg": "0",
+                    "eng": "1"
+                },
                 {
                     "name": "John Jaworski",
                     "position": "F",
@@ -8418,6 +9014,48 @@
                 "height": "6-2",
                 "weight": "195",
                 "hometown": "Windsor, Ontario"
+            }
+        ],
+        "last_five_games": [
+            {
+                "date": "Feb. 16",
+                "time": "7:00 ET",
+                "team": "Holy Cross",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 17",
+                "time": "7:00 ET",
+                "team": "Holy Cross",
+                "team_score": "1",
+                "opp_score": "2",
+                "result": "L"
+            },
+            {
+                "date": "Feb. 24",
+                "time": "7:00 ET",
+                "team": "Bentley",
+                "team_score": "2",
+                "opp_score": "2",
+                "result": "T/SWL"
+            },
+            {
+                "date": "Mar. 8",
+                "time": "7:00 ET",
+                "team": "Niagara",
+                "team_score": "3",
+                "opp_score": "6",
+                "result": "L"
+            },
+            {
+                "date": "Mar. 9",
+                "time": "7:00 ET",
+                "team": "Niagara",
+                "team_score": "1",
+                "opp_score": "5",
+                "result": "L"
             }
         ]
     }
